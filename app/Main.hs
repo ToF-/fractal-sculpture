@@ -5,7 +5,11 @@
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
 
-mySquare :: Diagram B 
-mySquare = square 1
+sq :: Diagram B 
+sq = square 1
 
-main = mainWith $ mySquare
+sq4x4 :: Diagram B
+sq4x4 = vcat (replicate 4 line)
+    where line = hcat (replicate 4 sq)
+
+main = mainWith sq4x4
