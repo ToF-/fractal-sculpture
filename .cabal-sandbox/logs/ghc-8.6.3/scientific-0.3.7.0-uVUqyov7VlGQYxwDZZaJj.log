@@ -1,0 +1,33 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/scientific-0.3.7.0'
+Configuring scientific-0.3.7.0...
+Preprocessing library for scientific-0.3.7.0..
+Building library for scientific-0.3.7.0..
+[1 of 5] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, dist/dist-sandbox-b5a179e0/build/GHC/Integer/Compat.o )
+[2 of 5] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-b5a179e0/build/Utils.o )
+[3 of 5] Compiling Data.Scientific  ( src/Data/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/Scientific.o )
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/Text/Lazy/Builder/Scientific.o )
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/ByteString/Builder/Scientific.o )
+[1 of 5] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, dist/dist-sandbox-b5a179e0/build/GHC/Integer/Compat.p_o )
+[2 of 5] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-b5a179e0/build/Utils.p_o )
+[3 of 5] Compiling Data.Scientific  ( src/Data/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/Scientific.p_o )
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/Text/Lazy/Builder/Scientific.p_o )
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, dist/dist-sandbox-b5a179e0/build/Data/ByteString/Builder/Scientific.p_o )
+Preprocessing library for scientific-0.3.7.0..
+Running Haddock on library for scientific-0.3.7.0..
+Haddock coverage:
+Warning: 'base10exponent' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 31 / 31) in 'Data.Scientific'
+  75% (  3 /  4) in 'Data.Text.Lazy.Builder.Scientific'
+  Missing documentation for:
+    Module header
+  75% (  3 /  4) in 'Data.ByteString.Builder.Scientific'
+  Missing documentation for:
+    Module header
+Warning: Data.Scientific: could not find link destinations for:
+    whenFloating
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/scientific/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/scientific-0.3.7.0-uVUqyov7VlGQYxwDZZaJj
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/scientific-0.3.7.0'

@@ -1,0 +1,28 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/microlens-th-0.4.3.10'
+Configuring microlens-th-0.4.3.10...
+Preprocessing library for microlens-th-0.4.3.10..
+Building library for microlens-th-0.4.3.10..
+[1 of 2] Compiling Lens.Micro.TH.Internal ( src/Lens/Micro/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/TH/Internal.o )
+[2 of 2] Compiling Lens.Micro.TH    ( src/Lens/Micro/TH.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/TH.o )
+[1 of 2] Compiling Lens.Micro.TH.Internal ( src/Lens/Micro/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/TH/Internal.p_o )
+[2 of 2] Compiling Lens.Micro.TH    ( src/Lens/Micro/TH.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/TH.p_o )
+Preprocessing library for microlens-th-0.4.3.10..
+Running Haddock on library for microlens-th-0.4.3.10..
+Haddock coverage:
+  67% ( 14 / 21) in 'Lens.Micro.TH.Internal'
+  Missing documentation for:
+    typeVars (src/Lens/Micro/TH/Internal.hs:197)
+    substTypeVars (src/Lens/Micro/TH/Internal.hs:201)
+    datatypeTypeKinded (src/Lens/Micro/TH/Internal.hs:220)
+    elemOf (src/Lens/Micro/TH/Internal.hs:294)
+    lengthOf (src/Lens/Micro/TH/Internal.hs:297)
+    setOf (src/Lens/Micro/TH/Internal.hs:300)
+    _ForallT (src/Lens/Micro/TH/Internal.hs:303)
+Warning: 's' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 29 / 29) in 'Lens.Micro.TH'
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/microlens-th/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/microlens-th-0.4.3.10-39zwwyBXOklEePKKb2FAN1
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/microlens-th-0.4.3.10'

@@ -1,6 +1,11 @@
-module Main where
+{-# LANGUAGE NoMonomorphismRestriction #-}
+{-# LANGUAGE FlexibleContexts          #-}
+{-# LANGUAGE TypeFamilies              #-}
 
-import Lib
+import Diagrams.Prelude
+import Diagrams.Backend.SVG.CmdLine
 
-main :: IO ()
-main = someFunc
+mySquare :: Diagram B 
+mySquare = square 1
+
+main = mainWith $ mySquare

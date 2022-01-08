@@ -1,0 +1,235 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/adjunctions-4.4'
+Configuring adjunctions-4.4...
+Preprocessing library for adjunctions-4.4..
+Building library for adjunctions-4.4..
+[ 1 of 11] Compiling Control.Monad.Trans.Conts ( src/Control/Monad/Trans/Conts.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Conts.o )
+[ 2 of 11] Compiling Data.Functor.Contravariant.Rep ( src/Data/Functor/Contravariant/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Contravariant/Rep.o )
+
+src/Data/Functor/Contravariant/Rep.hs:59:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+59 | "tabulate/index" forall t. tabulate (index t) = t #-}
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 3 of 11] Compiling Data.Functor.Contravariant.Adjunction ( src/Data/Functor/Contravariant/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Contravariant/Adjunction.o )
+[ 4 of 11] Compiling Control.Monad.Trans.Contravariant.Adjoint ( src/Control/Monad/Trans/Contravariant/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Contravariant/Adjoint.o )
+[ 5 of 11] Compiling Data.Functor.Rep ( src/Data/Functor/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Rep.o )
+
+src/Data/Functor/Rep.hs:250:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+250 | "tabulate/index" forall t. tabulate (index t) = t #-}
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 6 of 11] Compiling Data.Functor.Adjunction ( src/Data/Functor/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Adjunction.o )
+
+src/Data/Functor/Adjunction.hs:9:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Functor.Adjunction’ is marked as Trustworthy but has been inferred as safe!
+  |
+9 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+[ 7 of 11] Compiling Control.Monad.Trans.Adjoint ( src/Control/Monad/Trans/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Adjoint.o )
+[ 8 of 11] Compiling Control.Comonad.Trans.Adjoint ( src/Control/Comonad/Trans/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Comonad/Trans/Adjoint.o )
+[ 9 of 11] Compiling Control.Monad.Representable.State ( src/Control/Monad/Representable/State.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Representable/State.o )
+[10 of 11] Compiling Control.Monad.Representable.Reader ( src/Control/Monad/Representable/Reader.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Representable/Reader.o )
+[11 of 11] Compiling Control.Comonad.Representable.Store ( src/Control/Comonad/Representable/Store.hs, dist/dist-sandbox-b5a179e0/build/Control/Comonad/Representable/Store.o )
+
+src/Control/Comonad/Representable/Store.hs:46:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+46 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 1 of 11] Compiling Control.Monad.Trans.Conts ( src/Control/Monad/Trans/Conts.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Conts.p_o )
+[ 2 of 11] Compiling Data.Functor.Contravariant.Rep ( src/Data/Functor/Contravariant/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Contravariant/Rep.p_o )
+
+src/Data/Functor/Contravariant/Rep.hs:59:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+59 | "tabulate/index" forall t. tabulate (index t) = t #-}
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 3 of 11] Compiling Data.Functor.Contravariant.Adjunction ( src/Data/Functor/Contravariant/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Contravariant/Adjunction.p_o )
+[ 4 of 11] Compiling Control.Monad.Trans.Contravariant.Adjoint ( src/Control/Monad/Trans/Contravariant/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Contravariant/Adjoint.p_o )
+[ 5 of 11] Compiling Data.Functor.Rep ( src/Data/Functor/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Rep.p_o )
+
+src/Data/Functor/Rep.hs:250:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+250 | "tabulate/index" forall t. tabulate (index t) = t #-}
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 6 of 11] Compiling Data.Functor.Adjunction ( src/Data/Functor/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Adjunction.p_o )
+
+src/Data/Functor/Adjunction.hs:9:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Functor.Adjunction’ is marked as Trustworthy but has been inferred as safe!
+  |
+9 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+[ 7 of 11] Compiling Control.Monad.Trans.Adjoint ( src/Control/Monad/Trans/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Trans/Adjoint.p_o )
+[ 8 of 11] Compiling Control.Comonad.Trans.Adjoint ( src/Control/Comonad/Trans/Adjoint.hs, dist/dist-sandbox-b5a179e0/build/Control/Comonad/Trans/Adjoint.p_o )
+[ 9 of 11] Compiling Control.Monad.Representable.State ( src/Control/Monad/Representable/State.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Representable/State.p_o )
+[10 of 11] Compiling Control.Monad.Representable.Reader ( src/Control/Monad/Representable/Reader.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Representable/Reader.p_o )
+[11 of 11] Compiling Control.Comonad.Representable.Store ( src/Control/Comonad/Representable/Store.hs, dist/dist-sandbox-b5a179e0/build/Control/Comonad/Representable/Store.p_o )
+
+src/Control/Comonad/Representable/Store.hs:46:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+46 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+Preprocessing library for adjunctions-4.4..
+Running Haddock on library for adjunctions-4.4..
+
+src/Data/Functor/Contravariant/Rep.hs:59:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+59 | "tabulate/index" forall t. tabulate (index t) = t #-}
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Functor/Rep.hs:250:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+250 | "tabulate/index" forall t. tabulate (index t) = t #-}
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Functor/Adjunction.hs:9:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Functor.Adjunction’ is marked as Trustworthy but has been inferred as safe!
+  |
+9 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+
+src/Control/Comonad/Representable/Store.hs:46:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+46 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+  33% (  4 / 12) in 'Control.Monad.Trans.Conts'
+  Missing documentation for:
+    Cont (src/Control/Monad/Trans/Conts.hs:45)
+    cont (src/Control/Monad/Trans/Conts.hs:47)
+    runCont (src/Control/Monad/Trans/Conts.hs:50)
+    Conts (src/Control/Monad/Trans/Conts.hs:53)
+    runConts (src/Control/Monad/Trans/Conts.hs:58)
+    conts (src/Control/Monad/Trans/Conts.hs:55)
+    ContsT (src/Control/Monad/Trans/Conts.hs:61)
+    callCC (src/Control/Monad/Trans/Conts.hs:77)
+Warning: 'Iso'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  83% (  5 /  6) in 'Data.Functor.Contravariant.Rep'
+  Missing documentation for:
+    contramapRep (src/Data/Functor/Contravariant/Rep.hs:71)
+Warning: 'Hask' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Iso'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  80% (  4 /  5) in 'Data.Functor.Contravariant.Adjunction'
+  Missing documentation for:
+    coindexAdjunction (src/Data/Functor/Contravariant/Adjunction.hs:81)
+  20% (  1 /  5) in 'Control.Monad.Trans.Contravariant.Adjoint'
+  Missing documentation for:
+    Adjoint (src/Control/Monad/Trans/Contravariant/Adjoint.hs:47)
+    runAdjoint (src/Control/Monad/Trans/Contravariant/Adjoint.hs:54)
+    adjoint (src/Control/Monad/Trans/Contravariant/Adjoint.hs:51)
+    AdjointT (src/Control/Monad/Trans/Contravariant/Adjoint.hs:49)
+Warning: 'WrappedRec' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Iso'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  47% ( 22 / 47) in 'Data.Functor.Rep'
+  Missing documentation for:
+    Co (src/Data/Functor/Rep.hs:450)
+    fmapRep (src/Data/Functor/Rep.hs:264)
+    distributeRep (src/Data/Functor/Rep.hs:291)
+    collectRep (src/Data/Functor/Rep.hs:294)
+    apRep (src/Data/Functor/Rep.hs:288)
+    pureRep (src/Data/Functor/Rep.hs:267)
+    liftR2 (src/Data/Functor/Rep.hs:491)
+    liftR3 (src/Data/Functor/Rep.hs:494)
+    bindRep (src/Data/Functor/Rep.hs:270)
+    mfixRep (src/Data/Functor/Rep.hs:273)
+    mzipRep (src/Data/Functor/Rep.hs:279)
+    mzipWithRep (src/Data/Functor/Rep.hs:276)
+    askRep (src/Data/Functor/Rep.hs:282)
+    localRep (src/Data/Functor/Rep.hs:285)
+    duplicatedRep (src/Data/Functor/Rep.hs:306)
+    extendedRep (src/Data/Functor/Rep.hs:309)
+    duplicateRep (src/Data/Functor/Rep.hs:312)
+    extendRep (src/Data/Functor/Rep.hs:315)
+    extractRep (src/Data/Functor/Rep.hs:318)
+    duplicateRepBy (src/Data/Functor/Rep.hs:297)
+    extendRepBy (src/Data/Functor/Rep.hs:300)
+    extractRepBy (src/Data/Functor/Rep.hs:303)
+    imapRep (src/Data/Functor/Rep.hs:321)
+    ifoldMapRep (src/Data/Functor/Rep.hs:324)
+    itraverseRep (src/Data/Functor/Rep.hs:328)
+Warning: 'Iso'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'uncozipping' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  62% ( 10 / 16) in 'Data.Functor.Adjunction'
+  Missing documentation for:
+    zapWithAdjunction (src/Data/Functor/Adjunction.hs:120)
+    absurdL (src/Data/Functor/Adjunction.hs:144)
+    extractL (src/Data/Functor/Adjunction.hs:129)
+    duplicateL (src/Data/Functor/Adjunction.hs:132)
+    splitL (src/Data/Functor/Adjunction.hs:123)
+    unsplitL (src/Data/Functor/Adjunction.hs:126)
+  20% (  1 /  5) in 'Control.Monad.Trans.Adjoint'
+  Missing documentation for:
+    Adjoint (src/Control/Monad/Trans/Adjoint.hs:34)
+    runAdjoint (src/Control/Monad/Trans/Adjoint.hs:41)
+    adjoint (src/Control/Monad/Trans/Adjoint.hs:38)
+    AdjointT (src/Control/Monad/Trans/Adjoint.hs:36)
+  20% (  1 /  5) in 'Control.Comonad.Trans.Adjoint'
+  Missing documentation for:
+    Adjoint (src/Control/Comonad/Trans/Adjoint.hs:35)
+    runAdjoint (src/Control/Comonad/Trans/Adjoint.hs:42)
+    adjoint (src/Control/Comonad/Trans/Adjoint.hs:39)
+    AdjointT (src/Control/Comonad/Trans/Adjoint.hs:37)
+  80% ( 12 / 15) in 'Control.Monad.Representable.State'
+  Missing documentation for:
+    stateT (src/Control/Monad/Representable/State.hs:109)
+    runStateT (src/Control/Monad/Representable/State.hs:112)
+    mapStateT (src/Control/Monad/Representable/State.hs:115)
+  50% (  5 / 10) in 'Control.Monad.Representable.Reader'
+  Missing documentation for:
+    Reader (src/Control/Monad/Representable/Reader.hs:46)
+    runReader (src/Control/Monad/Representable/Reader.hs:48)
+    ReaderT (src/Control/Monad/Representable/Reader.hs:53)
+    readerT (src/Control/Monad/Representable/Reader.hs:55)
+    runReaderT (src/Control/Monad/Representable/Reader.hs:58)
+Warning: 'state' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  62% (  5 /  8) in 'Control.Comonad.Representable.Store'
+  Missing documentation for:
+    storeT (src/Control/Comonad/Representable/Store.hs:76)
+    runStoreT (src/Control/Comonad/Representable/Store.hs:79)
+    ComonadStore
+Warning: Data.Functor.Rep: could not find link destinations for:
+    GTabulate GIndex GRep'
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/adjunctions/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/adjunctions-4.4-GB5LEXSH9acJun2yVEhDwy
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/adjunctions-4.4'

@@ -1,0 +1,57 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/microlens-0.4.12.0'
+Configuring microlens-0.4.12.0...
+Preprocessing library for microlens-0.4.12.0..
+Building library for microlens-0.4.12.0..
+[1 of 4] Compiling Lens.Micro.Type  ( src/Lens/Micro/Type.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Type.o )
+[2 of 4] Compiling Lens.Micro.Internal ( src/Lens/Micro/Internal.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Internal.o )
+[3 of 4] Compiling Lens.Micro       ( src/Lens/Micro.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro.o )
+[4 of 4] Compiling Lens.Micro.Extras ( src/Lens/Micro/Extras.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Extras.o )
+[1 of 4] Compiling Lens.Micro.Type  ( src/Lens/Micro/Type.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Type.p_o )
+[2 of 4] Compiling Lens.Micro.Internal ( src/Lens/Micro/Internal.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Internal.p_o )
+[3 of 4] Compiling Lens.Micro       ( src/Lens/Micro.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro.p_o )
+[4 of 4] Compiling Lens.Micro.Extras ( src/Lens/Micro/Extras.hs, dist/dist-sandbox-b5a179e0/build/Lens/Micro/Extras.p_o )
+Preprocessing library for microlens-0.4.12.0..
+Running Haddock on library for microlens-0.4.12.0..
+Haddock coverage:
+ 100% ( 12 / 12) in 'Lens.Micro.Type'
+Warning: 'mapped' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  31% (  9 / 29) in 'Lens.Micro.Internal'
+  Missing documentation for:
+    foldring (src/Lens/Micro/Internal.hs:129)
+    foldrOf (src/Lens/Micro/Internal.hs:133)
+    foldMapOf (src/Lens/Micro/Internal.hs:137)
+    phantom (src/Lens/Micro/Internal.hs:153)
+    Each (src/Lens/Micro/Internal.hs:165)
+    Index (src/Lens/Micro/Internal.hs:241)
+    IxValue (src/Lens/Micro/Internal.hs:243)
+    Ixed (src/Lens/Micro/Internal.hs:255)
+    At (src/Lens/Micro/Internal.hs:302)
+    ixAt (src/Lens/Micro/Internal.hs:339)
+    Field1 (src/Lens/Micro/Internal.hs:364)
+    Field2 (src/Lens/Micro/Internal.hs:443)
+    Field3 (src/Lens/Micro/Internal.hs:482)
+    Field4 (src/Lens/Micro/Internal.hs:517)
+    Field5 (src/Lens/Micro/Internal.hs:548)
+    Cons (src/Lens/Micro/Internal.hs:575)
+    Snoc (src/Lens/Micro/Internal.hs:583)
+    Strict (src/Lens/Micro/Internal.hs:591)
+    #. (src/Lens/Micro/Internal.hs:642)
+    .# (src/Lens/Micro/Internal.hs:645)
+Warning: 'mapAccumL' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  95% ( 81 / 85) in 'Lens.Micro'
+  Missing documentation for:
+    _2 (src/Lens/Micro/Internal.hs:444)
+    _3 (src/Lens/Micro/Internal.hs:483)
+    _4 (src/Lens/Micro/Internal.hs:518)
+    _5 (src/Lens/Micro/Internal.hs:549)
+ 100% (  3 /  3) in 'Lens.Micro.Extras'
+Warning: Lens.Micro: could not find link destinations for:
+    Traversed State
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/microlens/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/microlens-0.4.12.0-DqC7jbtRX6hAUCbw9fNDXD
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/microlens-0.4.12.0'

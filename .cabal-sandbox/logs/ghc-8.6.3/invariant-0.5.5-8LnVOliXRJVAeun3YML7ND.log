@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/invariant-0.5.5'
+Configuring invariant-0.5.5...
+Preprocessing library for invariant-0.5.5..
+Building library for invariant-0.5.5..
+[1 of 4] Compiling Data.Functor.Invariant ( src/Data/Functor/Invariant.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant.o )
+[2 of 4] Compiling Data.Functor.Invariant.TH.Internal ( src/Data/Functor/Invariant/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant/TH/Internal.o )
+[3 of 4] Compiling Data.Functor.Invariant.TH ( src/Data/Functor/Invariant/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant/TH.o )
+[4 of 4] Compiling Paths_invariant  ( dist/dist-sandbox-b5a179e0/build/autogen/Paths_invariant.hs, dist/dist-sandbox-b5a179e0/build/Paths_invariant.o )
+[1 of 4] Compiling Data.Functor.Invariant ( src/Data/Functor/Invariant.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant.p_o )
+[2 of 4] Compiling Data.Functor.Invariant.TH.Internal ( src/Data/Functor/Invariant/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant/TH/Internal.p_o )
+[3 of 4] Compiling Data.Functor.Invariant.TH ( src/Data/Functor/Invariant/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/Invariant/TH.p_o )
+[4 of 4] Compiling Paths_invariant  ( dist/dist-sandbox-b5a179e0/build/autogen/Paths_invariant.hs, dist/dist-sandbox-b5a179e0/build/Paths_invariant.p_o )
+Preprocessing library for invariant-0.5.5..
+Running Haddock on library for invariant-0.5.5..
+Haddock coverage:
+ 100% ( 16 / 16) in 'Data.Functor.Invariant'
+ 100% ( 17 / 17) in 'Data.Functor.Invariant.TH'
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/invariant/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/invariant-0.5.5-8LnVOliXRJVAeun3YML7ND
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/invariant-0.5.5'

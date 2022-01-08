@@ -1,0 +1,100 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/unordered-containers-0.2.16.0'
+Configuring unordered-containers-0.2.16.0...
+Preprocessing library for unordered-containers-0.2.16.0..
+Building library for unordered-containers-0.2.16.0..
+[1 of 8] Compiling Data.HashMap.Internal.Array ( Data/HashMap/Internal/Array.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/Array.o )
+[2 of 8] Compiling Data.HashMap.Internal.List ( Data/HashMap/Internal/List.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/List.o )
+[3 of 8] Compiling Data.HashMap.Internal ( Data/HashMap/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal.o )
+[4 of 8] Compiling Data.HashMap.Internal.Strict ( Data/HashMap/Internal/Strict.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/Strict.o )
+[5 of 8] Compiling Data.HashSet.Internal ( Data/HashSet/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/HashSet/Internal.o )
+[6 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-b5a179e0/build/Data/HashSet.o )
+[7 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Strict.o )
+[8 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Lazy.o )
+[1 of 8] Compiling Data.HashMap.Internal.Array ( Data/HashMap/Internal/Array.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/Array.p_o )
+[2 of 8] Compiling Data.HashMap.Internal.List ( Data/HashMap/Internal/List.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/List.p_o )
+[3 of 8] Compiling Data.HashMap.Internal ( Data/HashMap/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal.p_o )
+[4 of 8] Compiling Data.HashMap.Internal.Strict ( Data/HashMap/Internal/Strict.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Internal/Strict.p_o )
+[5 of 8] Compiling Data.HashSet.Internal ( Data/HashSet/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/HashSet/Internal.p_o )
+[6 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-b5a179e0/build/Data/HashSet.p_o )
+[7 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Strict.p_o )
+[8 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-b5a179e0/build/Data/HashMap/Lazy.p_o )
+Preprocessing library for unordered-containers-0.2.16.0..
+Running Haddock on library for unordered-containers-0.2.16.0..
+Haddock coverage:
+  36% ( 16 / 45) in 'Data.HashMap.Internal.Array'
+  Missing documentation for:
+    Array (Data/HashMap/Internal/Array.hs:115)
+    MArray (Data/HashMap/Internal/Array.hs:147)
+    new_ (Data/HashMap/Internal/Array.hs:199)
+    singleton (Data/HashMap/Internal/Array.hs:202)
+    singletonM (Data/HashMap/Internal/Array.hs:206)
+    pair (Data/HashMap/Internal/Array.hs:210)
+    length (Data/HashMap/Internal/Array.hs:143)
+    lengthM (Data/HashMap/Internal/Array.hs:151)
+    read (Data/HashMap/Internal/Array.hs:217)
+    write (Data/HashMap/Internal/Array.hs:223)
+    index (Data/HashMap/Internal/Array.hs:230)
+    indexM (Data/HashMap/Internal/Array.hs:242)
+    index# (Data/HashMap/Internal/Array.hs:236)
+    sameArray1 (Data/HashMap/Internal/Array.hs:129)
+    unsafeFreeze (Data/HashMap/Internal/Array.hs:248)
+    unsafeThaw (Data/HashMap/Internal/Array.hs:254)
+    unsafeSameArray (Data/HashMap/Internal/Array.hs:125)
+    run (Data/HashMap/Internal/Array.hs:260)
+    foldl (Data/HashMap/Internal/Array.hs:378)
+    foldl' (Data/HashMap/Internal/Array.hs:349)
+    foldr (Data/HashMap/Internal/Array.hs:368)
+    foldr' (Data/HashMap/Internal/Array.hs:359)
+    foldMap (Data/HashMap/Internal/Array.hs:391)
+    thaw (Data/HashMap/Internal/Array.hs:410)
+    map (Data/HashMap/Internal/Array.hs:435)
+    traverse (Data/HashMap/Internal/Array.hs:485)
+    traverse' (Data/HashMap/Internal/Array.hs:501)
+    toList (Data/HashMap/Internal/Array.hs:477)
+    fromList (Data/HashMap/Internal/Array.hs:466)
+  25% (  1 /  4) in 'Data.HashMap.Internal.List'
+  Missing documentation for:
+    isPermutationBy (Data/HashMap/Internal/List.hs:37)
+    deleteBy (Data/HashMap/Internal/List.hs:80)
+    unorderedCompare (Data/HashMap/Internal/List.hs:65)
+Warning: 'Leaf' is ambiguous. It is defined
+    * at Data/HashMap/Internal.hs:215:7
+    * at Data/HashMap/Internal.hs:191:1
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'Leaf' defined at Data/HashMap/Internal.hs:191:1
+Warning: 'at' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  84% ( 82 / 98) in 'Data.HashMap.Internal'
+  Missing documentation for:
+    Leaf (Data/HashMap/Internal.hs:191)
+    Hash (Data/HashMap/Internal.hs:316)
+    Bitmap (Data/HashMap/Internal.hs:317)
+    mask (Data/HashMap/Internal.hs:2296)
+    bitsPerSubkey (Data/HashMap/Internal.hs:2283)
+    sparseIndex (Data/HashMap/Internal.hs:2292)
+    updateOrConcatWith (Data/HashMap/Internal.hs:2209)
+    updateOrConcatWithKey (Data/HashMap/Internal.hs:2213)
+    equalKeys (Data/HashMap/Internal.hs:472)
+    equalKeys1 (Data/HashMap/Internal.hs:456)
+    lookupRecordCollision (Data/HashMap/Internal.hs:648)
+    LookupRes (Data/HashMap/Internal.hs:633)
+    insert' (Data/HashMap/Internal.hs:784)
+    delete' (Data/HashMap/Internal.hs:1100)
+    insertNewKey (Data/HashMap/Internal.hs:826)
+    insertKeyExists (Data/HashMap/Internal.hs:872)
+Warning: 'at' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 67 / 67) in 'Data.HashMap.Internal.Strict'
+ 100% ( 35 / 35) in 'Data.HashSet.Internal'
+ 100% ( 32 / 32) in 'Data.HashSet'
+ 100% ( 69 / 69) in 'Data.HashMap.Strict'
+ 100% ( 69 / 69) in 'Data.HashMap.Lazy'
+Warning: Data.HashMap.Internal: could not find link destinations for:
+    Shift
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/unordered-containers/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/unordered-containers-0.2.16.0-JVIA7UjD1ZiLN8gC4Hruek
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/unordered-containers-0.2.16.0'

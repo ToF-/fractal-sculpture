@@ -1,0 +1,65 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/hashable-1.4.0.2'
+Configuring hashable-1.4.0.2...
+Preprocessing library for hashable-1.4.0.2..
+Building library for hashable-1.4.0.2..
+[1 of 7] Compiling Data.Hashable.Imports ( src/Data/Hashable/Imports.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Imports.o )
+[2 of 7] Compiling Data.Hashable.LowLevel ( src/Data/Hashable/LowLevel.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/LowLevel.o )
+[3 of 7] Compiling Data.Hashable.Class ( src/Data/Hashable/Class.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Class.o )
+[4 of 7] Compiling Data.Hashable.Lifted ( src/Data/Hashable/Lifted.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Lifted.o )
+[5 of 7] Compiling Data.Hashable.Generic.Instances ( src/Data/Hashable/Generic/Instances.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Generic/Instances.o )
+
+src/Data/Hashable/Generic/Instances.hs:5:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Hashable.Generic.Instances’ is marked as Trustworthy but has been inferred as safe!
+  |
+5 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+[6 of 7] Compiling Data.Hashable.Generic ( src/Data/Hashable/Generic.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Generic.o )
+[7 of 7] Compiling Data.Hashable    ( src/Data/Hashable.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable.o )
+[1 of 7] Compiling Data.Hashable.Imports ( src/Data/Hashable/Imports.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Imports.p_o )
+[2 of 7] Compiling Data.Hashable.LowLevel ( src/Data/Hashable/LowLevel.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/LowLevel.p_o )
+[3 of 7] Compiling Data.Hashable.Class ( src/Data/Hashable/Class.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Class.p_o )
+[4 of 7] Compiling Data.Hashable.Lifted ( src/Data/Hashable/Lifted.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Lifted.p_o )
+[5 of 7] Compiling Data.Hashable.Generic.Instances ( src/Data/Hashable/Generic/Instances.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Generic/Instances.p_o )
+
+src/Data/Hashable/Generic/Instances.hs:5:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Hashable.Generic.Instances’ is marked as Trustworthy but has been inferred as safe!
+  |
+5 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+[6 of 7] Compiling Data.Hashable.Generic ( src/Data/Hashable/Generic.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable/Generic.p_o )
+[7 of 7] Compiling Data.Hashable    ( src/Data/Hashable.hs, dist/dist-sandbox-b5a179e0/build/Data/Hashable.p_o )
+Preprocessing library for hashable-1.4.0.2..
+Running Haddock on library for hashable-1.4.0.2..
+
+src/Data/Hashable/Generic/Instances.hs:5:14: warning: [-Wtrustworthy-safe]
+    ‘Data.Hashable.Generic.Instances’ is marked as Trustworthy but has been inferred as safe!
+  |
+5 | {-# LANGUAGE Trustworthy #-}
+  |              ^^^^^^^^^^^
+Haddock coverage:
+Warning: 'hash' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'defaultHashWith' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  80% (  8 / 10) in 'Data.Hashable.Lifted'
+  Missing documentation for:
+    Hashable1 (src/Data/Hashable/Class.hs:308)
+    Hashable2 (src/Data/Hashable/Class.hs:324)
+  67% (  6 /  9) in 'Data.Hashable.Generic'
+  Missing documentation for:
+    One (src/Data/Hashable/Class.hs:298)
+    Zero (src/Data/Hashable/Class.hs:297)
+    HashArgs (src/Data/Hashable/Class.hs:300)
+Warning: 'Generic' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 29 / 29) in 'Data.Hashable'
+Warning: Data.Hashable.Generic: could not find link destinations for:
+    GSum D:R:HashArgsOnea0 D:R:HashArgsZeroa0
+Warning: Data.Hashable: could not find link destinations for:
+    Salt
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/hashable/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/hashable-1.4.0.2-45679OrlPvpJEGb1I6x7iN
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/hashable-1.4.0.2'

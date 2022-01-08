@@ -1,0 +1,58 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/cereal-0.5.8.2'
+Configuring cereal-0.5.8.2...
+Preprocessing library for cereal-0.5.8.2..
+Building library for cereal-0.5.8.2..
+[1 of 4] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/Get.o )
+[2 of 4] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/Put.o )
+[3 of 4] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/IEEE754.o )
+[4 of 4] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize.o )
+[1 of 4] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/Get.p_o )
+[2 of 4] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/Put.p_o )
+[3 of 4] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize/IEEE754.p_o )
+[4 of 4] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-b5a179e0/build/Data/Serialize.p_o )
+Preprocessing library for cereal-0.5.8.2..
+Running Haddock on library for cereal-0.5.8.2..
+Haddock coverage:
+  94% ( 61 / 65) in 'Data.Serialize.Get'
+  Missing documentation for:
+    label (src/Data/Serialize/Get.hs:267)
+    getLazyByteString (src/Data/Serialize/Get.hs:508)
+    getShortByteString (src/Data/Serialize/Get.hs:512)
+    getTwoOf (src/Data/Serialize/Get.hs:756)
+Warning: 'Put' is ambiguous. It is defined
+    * at src/Data/Serialize/Put.hs:140:18
+    * at src/Data/Serialize/Put.hs:143:1
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'Put' defined at src/Data/Serialize/Put.hs:140:1
+  75% ( 42 / 56) in 'Data.Serialize.Put'
+  Missing documentation for:
+    Putter (src/Data/Serialize/Put.hs:145)
+    putBuilder (src/Data/Serialize/Put.hs:201)
+    putShortByteString (src/Data/Serialize/Put.hs:259)
+    putTwoOf (src/Data/Serialize/Put.hs:399)
+    putListOf (src/Data/Serialize/Put.hs:403)
+    putIArrayOf (src/Data/Serialize/Put.hs:409)
+    putSeqOf (src/Data/Serialize/Put.hs:415)
+    putTreeOf (src/Data/Serialize/Put.hs:421)
+    putMapOf (src/Data/Serialize/Put.hs:428)
+    putIntMapOf (src/Data/Serialize/Put.hs:432)
+    putSetOf (src/Data/Serialize/Put.hs:436)
+    putIntSetOf (src/Data/Serialize/Put.hs:440)
+    putMaybeOf (src/Data/Serialize/Put.hs:444)
+    putEitherOf (src/Data/Serialize/Put.hs:449)
+ 100% ( 11 / 11) in 'Data.Serialize.IEEE754'
+Cannot find documentation for: $example
+  87% ( 13 / 15) in 'Data.Serialize'
+  Missing documentation for:
+    GSerializePut (src/Data/Serialize.hs:571)
+    GSerializeGet (src/Data/Serialize.hs:574)
+Warning: Data.Serialize.Get: could not find link destinations for:
+    get
+Warning: Data.Serialize.Put: could not find link destinations for:
+    PairS
+Warning: Data.Serialize: could not find link destinations for:
+    PutSum SumSize GetSum
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/cereal/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/cereal-0.5.8.2-47B1EZE3Udx3VT2p2OEkoW
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/cereal-0.5.8.2'

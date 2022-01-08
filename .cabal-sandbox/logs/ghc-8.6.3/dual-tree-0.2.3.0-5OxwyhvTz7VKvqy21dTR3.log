@@ -1,0 +1,22 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/dual-tree-0.2.3.0'
+Configuring dual-tree-0.2.3.0...
+Preprocessing library for dual-tree-0.2.3.0..
+Building library for dual-tree-0.2.3.0..
+[1 of 2] Compiling Data.Tree.DUAL.Internal ( src/Data/Tree/DUAL/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Tree/DUAL/Internal.o )
+[2 of 2] Compiling Data.Tree.DUAL   ( src/Data/Tree/DUAL.hs, dist/dist-sandbox-b5a179e0/build/Data/Tree/DUAL.o )
+[1 of 2] Compiling Data.Tree.DUAL.Internal ( src/Data/Tree/DUAL/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Tree/DUAL/Internal.p_o )
+[2 of 2] Compiling Data.Tree.DUAL   ( src/Data/Tree/DUAL.hs, dist/dist-sandbox-b5a179e0/build/Data/Tree/DUAL.p_o )
+Preprocessing library for dual-tree-0.2.3.0..
+Running Haddock on library for dual-tree-0.2.3.0..
+Haddock coverage:
+ 100% ( 23 / 23) in 'Data.Tree.DUAL.Internal'
+Warning: 'Action' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 17 / 17) in 'Data.Tree.DUAL'
+Warning: Data.Tree.DUAL.Internal: could not find link destinations for:
+    pullU
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/dual-tree/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/dual-tree-0.2.3.0-5OxwyhvTz7VKvqy21dTR3
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/dual-tree-0.2.3.0'

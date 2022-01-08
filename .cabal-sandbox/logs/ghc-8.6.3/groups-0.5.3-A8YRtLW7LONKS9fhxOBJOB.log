@@ -1,0 +1,15 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/groups-0.5.3'
+Configuring groups-0.5.3...
+Preprocessing library for groups-0.5.3..
+Building library for groups-0.5.3..
+[1 of 1] Compiling Data.Group       ( src/Data/Group.hs, dist/dist-sandbox-b5a179e0/build/Data/Group.o )
+[1 of 1] Compiling Data.Group       ( src/Data/Group.hs, dist/dist-sandbox-b5a179e0/build/Data/Group.p_o )
+Preprocessing library for groups-0.5.3..
+Running Haddock on library for groups-0.5.3..
+Haddock coverage:
+  83% (  5 /  6) in 'Data.Group'
+  Missing documentation for:
+    Module header
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/groups/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/groups-0.5.3-A8YRtLW7LONKS9fhxOBJOB
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/groups-0.5.3'

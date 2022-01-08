@@ -1,0 +1,18 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/data-default-class-0.1.2.0'
+Configuring data-default-class-0.1.2.0...
+Preprocessing library for data-default-class-0.1.2.0..
+Building library for data-default-class-0.1.2.0..
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/dist-sandbox-b5a179e0/build/Data/Default/Class.o )
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/dist-sandbox-b5a179e0/build/Data/Default/Class.p_o )
+Preprocessing library for data-default-class-0.1.2.0..
+Running Haddock on library for data-default-class-0.1.2.0..
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Default.Class'
+  Missing documentation for:
+    Module header
+Warning: Data.Default.Class: could not find link destinations for:
+    GDefault
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/data-default-class/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/data-default-class-0.1.2.0-FeIQ5tLoVZBHMSgrT9zptQ
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/data-default-class-0.1.2.0'

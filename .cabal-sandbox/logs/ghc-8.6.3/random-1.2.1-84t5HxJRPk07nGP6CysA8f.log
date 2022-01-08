@@ -1,0 +1,24 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/random-1.2.1'
+Configuring random-1.2.1...
+Preprocessing library for random-1.2.1..
+Building library for random-1.2.1..
+[1 of 4] Compiling System.Random.GFinite ( src/System/Random/GFinite.hs, dist/dist-sandbox-b5a179e0/build/System/Random/GFinite.o )
+[2 of 4] Compiling System.Random.Internal ( src/System/Random/Internal.hs, dist/dist-sandbox-b5a179e0/build/System/Random/Internal.o )
+[3 of 4] Compiling System.Random    ( src/System/Random.hs, dist/dist-sandbox-b5a179e0/build/System/Random.o )
+[4 of 4] Compiling System.Random.Stateful ( src/System/Random/Stateful.hs, dist/dist-sandbox-b5a179e0/build/System/Random/Stateful.o )
+[1 of 4] Compiling System.Random.GFinite ( src/System/Random/GFinite.hs, dist/dist-sandbox-b5a179e0/build/System/Random/GFinite.p_o )
+[2 of 4] Compiling System.Random.Internal ( src/System/Random/Internal.hs, dist/dist-sandbox-b5a179e0/build/System/Random/Internal.p_o )
+[3 of 4] Compiling System.Random    ( src/System/Random.hs, dist/dist-sandbox-b5a179e0/build/System/Random.p_o )
+[4 of 4] Compiling System.Random.Stateful ( src/System/Random/Stateful.hs, dist/dist-sandbox-b5a179e0/build/System/Random/Stateful.p_o )
+Preprocessing library for random-1.2.1..
+Running Haddock on library for random-1.2.1..
+Haddock coverage:
+ 100% ( 37 / 37) in 'System.Random'
+ 100% ( 75 / 75) in 'System.Random.Stateful'
+Warning: System.Random: could not find link destinations for:
+    cardinality Cardinality toFinite fromFinite
+Warning: System.Random.Stateful: could not find link destinations for:
+    GUniform GFinite
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/random/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/random-1.2.1-84t5HxJRPk07nGP6CysA8f
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/random-1.2.1'

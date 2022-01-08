@@ -1,0 +1,105 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/bifunctors-5.5.11'
+Configuring bifunctors-5.5.11...
+Preprocessing library for bifunctors-5.5.11..
+Building library for bifunctors-5.5.11..
+[ 1 of 16] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-b5a179e0/build/Data/Biapplicative.o )
+[ 2 of 16] Compiling Data.Bifunctor.Biap ( src/Data/Bifunctor/Biap.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Biap.o )
+[ 3 of 16] Compiling Data.Bifunctor.Biff ( src/Data/Bifunctor/Biff.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Biff.o )
+[ 4 of 16] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Clown.o )
+[ 5 of 16] Compiling Data.Bifunctor.Fix ( src/Data/Bifunctor/Fix.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Fix.o )
+[ 6 of 16] Compiling Data.Bifunctor.Functor ( src/Data/Bifunctor/Functor.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Functor.o )
+[ 7 of 16] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Flip.o )
+[ 8 of 16] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Join.o )
+[ 9 of 16] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Joker.o )
+[10 of 16] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Product.o )
+[11 of 16] Compiling Data.Bifunctor.Sum ( src/Data/Bifunctor/Sum.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Sum.o )
+[12 of 16] Compiling Data.Bifunctor.TH.Internal ( src/Data/Bifunctor/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/TH/Internal.o )
+[13 of 16] Compiling Data.Bifunctor.TH ( src/Data/Bifunctor/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/TH.o )
+[14 of 16] Compiling Data.Bifunctor.Tannen ( src/Data/Bifunctor/Tannen.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Tannen.o )
+[15 of 16] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Wrapped.o )
+[16 of 16] Compiling Paths_bifunctors ( dist/dist-sandbox-b5a179e0/build/autogen/Paths_bifunctors.hs, dist/dist-sandbox-b5a179e0/build/Paths_bifunctors.o )
+[ 1 of 16] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-b5a179e0/build/Data/Biapplicative.p_o )
+[ 2 of 16] Compiling Data.Bifunctor.Biap ( src/Data/Bifunctor/Biap.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Biap.p_o )
+[ 3 of 16] Compiling Data.Bifunctor.Biff ( src/Data/Bifunctor/Biff.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Biff.p_o )
+[ 4 of 16] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Clown.p_o )
+[ 5 of 16] Compiling Data.Bifunctor.Fix ( src/Data/Bifunctor/Fix.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Fix.p_o )
+[ 6 of 16] Compiling Data.Bifunctor.Functor ( src/Data/Bifunctor/Functor.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Functor.p_o )
+[ 7 of 16] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Flip.p_o )
+[ 8 of 16] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Join.p_o )
+[ 9 of 16] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Joker.p_o )
+[10 of 16] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Product.p_o )
+[11 of 16] Compiling Data.Bifunctor.Sum ( src/Data/Bifunctor/Sum.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Sum.p_o )
+[12 of 16] Compiling Data.Bifunctor.TH.Internal ( src/Data/Bifunctor/TH/Internal.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/TH/Internal.p_o )
+[13 of 16] Compiling Data.Bifunctor.TH ( src/Data/Bifunctor/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/TH.p_o )
+[14 of 16] Compiling Data.Bifunctor.Tannen ( src/Data/Bifunctor/Tannen.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Tannen.p_o )
+[15 of 16] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-b5a179e0/build/Data/Bifunctor/Wrapped.p_o )
+[16 of 16] Compiling Paths_bifunctors ( dist/dist-sandbox-b5a179e0/build/autogen/Paths_bifunctors.hs, dist/dist-sandbox-b5a179e0/build/Paths_bifunctors.p_o )
+Preprocessing library for bifunctors-5.5.11..
+Running Haddock on library for bifunctors-5.5.11..
+Haddock coverage:
+Warning: 'Biappicative' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  70% (  7 / 10) in 'Data.Biapplicative'
+  Missing documentation for:
+    Biapplicative (src/Data/Biapplicative.hs:53)
+    <<$>> (src/Data/Biapplicative.hs:49)
+    <<**>> (src/Data/Biapplicative.hs:84)
+ 100% (  2 /  2) in 'Data.Bifunctor.Biap'
+ 100% (  2 /  2) in 'Data.Bifunctor.Biff'
+ 100% (  2 /  2) in 'Data.Bifunctor.Clown'
+ 100% (  2 /  2) in 'Data.Bifunctor.Fix'
+  14% (  1 /  7) in 'Data.Bifunctor.Functor'
+  Missing documentation for:
+    Module header
+    BifunctorFunctor (src/Data/Bifunctor/Functor.hs:28)
+    BifunctorMonad (src/Data/Bifunctor/Functor.hs:31)
+    biliftM (src/Data/Bifunctor/Functor.hs:41)
+    BifunctorComonad (src/Data/Bifunctor/Functor.hs:45)
+    biliftW (src/Data/Bifunctor/Functor.hs:55)
+ 100% (  2 /  2) in 'Data.Bifunctor.Flip'
+ 100% (  2 /  2) in 'Data.Bifunctor.Join'
+ 100% (  2 /  2) in 'Data.Bifunctor.Joker'
+ 100% (  2 /  2) in 'Data.Bifunctor.Product'
+   0% (  0 /  2) in 'Data.Bifunctor.Sum'
+  Missing documentation for:
+    Module header
+    Sum (src/Data/Bifunctor/Sum.hs:42)
+Warning: 'bimap' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bifoldMap' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bifoldr' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bifoldl' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bitraverse' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bisequenceA' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'makeBitraverseA' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bimapM' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'bisequence' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  97% ( 32 / 33) in 'Data.Bifunctor.TH'
+  Missing documentation for:
+    makeBifold (src/Data/Bifunctor/TH.hs:225)
+ 100% (  2 /  2) in 'Data.Bifunctor.Tannen'
+ 100% (  2 /  2) in 'Data.Bifunctor.Wrapped'
+Warning: Data.Bifunctor.TH: could not find link destinations for:
+    Bifunctor Bifoldable Bitraversable
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/bifunctors/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/bifunctors-5.5.11-2FJyarTGA9v1CXTLYnv24p
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/bifunctors-5.5.11'

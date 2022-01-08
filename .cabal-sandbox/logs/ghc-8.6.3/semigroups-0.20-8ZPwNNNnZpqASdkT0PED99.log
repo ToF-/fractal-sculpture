@@ -1,0 +1,19 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/semigroups-0.20'
+Configuring semigroups-0.20...
+Preprocessing library for semigroups-0.20..
+Building library for semigroups-0.20..
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-b5a179e0/build/Data/Semigroup/Generic.o )
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-b5a179e0/build/Data/Semigroup/Generic.p_o )
+Preprocessing library for semigroups-0.20..
+Running Haddock on library for semigroups-0.20..
+Haddock coverage:
+  78% (  7 /  9) in 'Data.Semigroup.Generic'
+  Missing documentation for:
+    GSemigroup (src/Data/Semigroup/Generic.hs:54)
+    GMonoid (src/Data/Semigroup/Generic.hs:84)
+Warning: Data.Semigroup.Generic: could not find link destinations for:
+    gmappend' gmempty'
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/semigroups/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/semigroups-0.20-8ZPwNNNnZpqASdkT0PED99
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/semigroups-0.20'

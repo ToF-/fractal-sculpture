@@ -1,0 +1,138 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/primitive-0.7.3.0'
+Configuring primitive-0.7.3.0...
+Preprocessing library for primitive-0.7.3.0..
+Building library for primitive-0.7.3.0..
+[ 1 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Primitive.o )
+[ 2 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Array.o )
+[ 3 of 12] Compiling Data.Primitive.MVar ( Data/Primitive/MVar.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MVar.o )
+[ 4 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MachDeps.o )
+[ 5 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Internal/Operations.o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MutVar.o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/SmallArray.o )
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Types.o )
+[ 9 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/ByteArray.o )
+[10 of 12] Compiling Data.Primitive.PrimArray ( Data/Primitive/PrimArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/PrimArray.o )
+[11 of 12] Compiling Data.Primitive.Ptr ( Data/Primitive/Ptr.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Ptr.o )
+[12 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive.o )
+[ 1 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Primitive.p_o )
+[ 2 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Array.p_o )
+[ 3 of 12] Compiling Data.Primitive.MVar ( Data/Primitive/MVar.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MVar.p_o )
+[ 4 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MachDeps.p_o )
+[ 5 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Internal/Operations.p_o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/MutVar.p_o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/SmallArray.p_o )
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Types.p_o )
+[ 9 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/ByteArray.p_o )
+[10 of 12] Compiling Data.Primitive.PrimArray ( Data/Primitive/PrimArray.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/PrimArray.p_o )
+[11 of 12] Compiling Data.Primitive.Ptr ( Data/Primitive/Ptr.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive/Ptr.p_o )
+[12 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-b5a179e0/build/Data/Primitive.p_o )
+Preprocessing library for primitive-0.7.3.0..
+Running Haddock on library for primitive-0.7.3.0..
+Haddock coverage:
+Warning: 'PrimMonad'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'PrimBase'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  85% ( 22 / 26) in 'Control.Monad.Primitive'
+  Missing documentation for:
+    touch (Control/Monad/Primitive.hs:333)
+    unsafeInterleave (Control/Monad/Primitive.hs:352)
+    unsafeDupableInterleave (Control/Monad/Primitive.hs:352)
+    noDuplicate (Control/Monad/Primitive.hs:344)
+ 100% ( 29 / 29) in 'Data.Primitive.Array'
+ 100% ( 11 / 11) in 'Data.Primitive.MVar'
+   3% (  1 / 35) in 'Data.Primitive.MachDeps'
+  Missing documentation for:
+    sIZEOF_CHAR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_CHAR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_DOUBLE (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_DOUBLE (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_FLOAT (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_FLOAT (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_PTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_PTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_FUNPTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_FUNPTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_STABLEPTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_STABLEPTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT8 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT8 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD8 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD8 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT16 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT16 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD16 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD16 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT32 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT32 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD32 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD32 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT64 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT64 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD64 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD64 (Data/Primitive/MachDeps.hs:19)
+    Word64_# (Data/Primitive/MachDeps.hs:120)
+    Int64_# (Data/Primitive/MachDeps.hs:121)
+ 100% (  9 /  9) in 'Data.Primitive.MutVar'
+Warning: 'x' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'sa' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  92% ( 24 / 26) in 'Data.Primitive.SmallArray'
+  Missing documentation for:
+    SmallArray (Data/Primitive/SmallArray.hs:97)
+    SmallMutableArray (Data/Primitive/SmallArray.hs:108)
+ 100% (  8 /  8) in 'Data.Primitive.Types'
+  96% ( 49 / 51) in 'Data.Primitive.ByteArray'
+  Missing documentation for:
+    ByteArray#
+    MutableByteArray#
+Warning: 'Word8' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Word16' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Storable' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'newPinnedByteArray' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'newAlignedPinnedByteArray' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 74 / 74) in 'Data.Primitive.PrimArray'
+ 100% ( 17 / 17) in 'Data.Primitive.Ptr'
+Warning: 'ST' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'MaybeT' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'ExceptT' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'StateT' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Writer' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 10 / 10) in 'Data.Primitive'
+Warning: Data.Primitive.Types: could not find link destinations for:
+    D:R:UReckPtrp0
+Warning: Data.Primitive.Ptr: could not find link destinations for:
+    D:R:UReckPtrp0
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/primitive/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/primitive-0.7.3.0-KZQAXT3NMcF5fALh0lUh0a
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/primitive-0.7.3.0'

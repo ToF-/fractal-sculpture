@@ -1,0 +1,112 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/mfsolve-0.3.2.1'
+Configuring mfsolve-0.3.2.1...
+Preprocessing library for mfsolve-0.3.2.1..
+Building library for mfsolve-0.3.2.1..
+[1 of 1] Compiling Math.MFSolve     ( Math/MFSolve.hs, dist/dist-sandbox-b5a179e0/build/Math/MFSolve.o )
+
+Math/MFSolve.hs:113:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+    |
+113 | import Control.Applicative hiding (Const)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:210:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LinearE :: forall v n. LinExpr v n -> Expr v n
+    |
+210 | pattern LinearE l = Expr l [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:211:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern ConstE :: forall v n. n -> Expr v n
+    |
+211 | pattern ConstE c = Expr (LinExpr c []) [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:212:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LConst :: forall v n. n -> LinExpr v n
+    |
+212 | pattern LConst c = LinExpr c []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1 of 1] Compiling Math.MFSolve     ( Math/MFSolve.hs, dist/dist-sandbox-b5a179e0/build/Math/MFSolve.p_o )
+
+Math/MFSolve.hs:113:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+    |
+113 | import Control.Applicative hiding (Const)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:210:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LinearE :: forall v n. LinExpr v n -> Expr v n
+    |
+210 | pattern LinearE l = Expr l [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:211:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern ConstE :: forall v n. n -> Expr v n
+    |
+211 | pattern ConstE c = Expr (LinExpr c []) [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:212:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LConst :: forall v n. n -> LinExpr v n
+    |
+212 | pattern LConst c = LinExpr c []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Preprocessing library for mfsolve-0.3.2.1..
+Running Haddock on library for mfsolve-0.3.2.1..
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: mtl-compat-0.2.2
+
+Math/MFSolve.hs:113:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+    |
+113 | import Control.Applicative hiding (Const)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:210:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LinearE :: forall v n. LinExpr v n -> Expr v n
+    |
+210 | pattern LinearE l = Expr l [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:211:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern ConstE :: forall v n. n -> Expr v n
+    |
+211 | pattern ConstE c = Expr (LinExpr c []) [] []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Math/MFSolve.hs:212:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern LConst :: forall v n. n -> LinExpr v n
+    |
+212 | pattern LConst c = LinExpr c []
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+Warning: 'Redundant' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  92% ( 46 / 50) in 'Math.MFSolve'
+  Missing documentation for:
+    UnaryOp (Math/MFSolve.hs:126)
+    BinaryOp (Math/MFSolve.hs:119)
+    SimpleVar (Math/MFSolve.hs:171)
+    runSolverT (Math/MFSolve.hs:277)
+Warning: Math.MFSolve: could not find link destinations for:
+    Phase
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/mfsolve/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/mfsolve-0.3.2.1-DxWEXLUyylrLTjOtYCC8h8
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/mfsolve-0.3.2.1'

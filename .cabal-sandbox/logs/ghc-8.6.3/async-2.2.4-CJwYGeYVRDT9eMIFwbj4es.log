@@ -1,0 +1,15 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/async-2.2.4'
+Configuring async-2.2.4...
+Preprocessing library for async-2.2.4..
+Building library for async-2.2.4..
+[1 of 1] Compiling Control.Concurrent.Async ( Control/Concurrent/Async.hs, dist/dist-sandbox-b5a179e0/build/Control/Concurrent/Async.o )
+[1 of 1] Compiling Control.Concurrent.Async ( Control/Concurrent/Async.hs, dist/dist-sandbox-b5a179e0/build/Control/Concurrent/Async.p_o )
+Preprocessing library for async-2.2.4..
+Running Haddock on library for async-2.2.4..
+Haddock coverage:
+  99% ( 67 / 68) in 'Control.Concurrent.Async'
+  Missing documentation for:
+    ExceptionInLinkedThread (Control/Concurrent/Async.hs:609)
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/async/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/async-2.2.4-CJwYGeYVRDT9eMIFwbj4es
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/async-2.2.4'

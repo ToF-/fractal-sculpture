@@ -1,0 +1,65 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/Boolean-0.2.4'
+Configuring Boolean-0.2.4...
+Preprocessing library for Boolean-0.2.4..
+Building library for Boolean-0.2.4..
+[1 of 3] Compiling Data.Boolean     ( src/Data/Boolean.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean.o )
+[2 of 3] Compiling Data.Boolean.Numbers ( src/Data/Boolean/Numbers.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean/Numbers.o )
+[3 of 3] Compiling Data.Boolean.Overload ( src/Data/Boolean/Overload.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean/Overload.o )
+[1 of 3] Compiling Data.Boolean     ( src/Data/Boolean.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean.p_o )
+[2 of 3] Compiling Data.Boolean.Numbers ( src/Data/Boolean/Numbers.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean/Numbers.p_o )
+[3 of 3] Compiling Data.Boolean.Overload ( src/Data/Boolean/Overload.hs, dist/dist-sandbox-b5a179e0/build/Data/Boolean/Overload.p_o )
+Preprocessing library for Boolean-0.2.4..
+Running Haddock on library for Boolean-0.2.4..
+Haddock coverage:
+ 100% ( 14 / 14) in 'Data.Boolean'
+Warning: 'Prelude' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'round' is ambiguous. It is defined
+    * in ‘GHC.Real’
+    * at src/Data/Boolean/Numbers.hs:125:3
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'round' defined at src/Data/Boolean/Numbers.hs:108:1
+Warning: 'floor' is ambiguous. It is defined
+    * in ‘GHC.Real’
+    * at src/Data/Boolean/Numbers.hs:129:3
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'floor' defined at src/Data/Boolean/Numbers.hs:108:1
+Warning: 'ceiling' is ambiguous. It is defined
+    * in ‘GHC.Real’
+    * at src/Data/Boolean/Numbers.hs:127:3
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'ceiling' defined at src/Data/Boolean/Numbers.hs:108:1
+Warning: 'truncate' is ambiguous. It is defined
+    * in ‘GHC.Real’
+    * at src/Data/Boolean/Numbers.hs:121:3
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'truncate' defined at src/Data/Boolean/Numbers.hs:108:1
+Warning: 'atan2' is ambiguous. It is defined
+    * in ‘GHC.Float’
+    * at src/Data/Boolean/Numbers.hs:152:3
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'atan2' defined at src/Data/Boolean/Numbers.hs:136:1
+ 100% (  8 /  8) in 'Data.Boolean.Numbers'
+  14% (  2 / 14) in 'Data.Boolean.Overload'
+  Missing documentation for:
+    && (src/Data/Boolean/Overload.hs:45)
+    || (src/Data/Boolean/Overload.hs:48)
+    not (src/Data/Boolean/Overload.hs:51)
+    ifThenElse (src/Data/Boolean/Overload.hs:56)
+    == (src/Data/Boolean/Overload.hs:60)
+    /= (src/Data/Boolean/Overload.hs:62)
+    < (src/Data/Boolean/Overload.hs:66)
+    > (src/Data/Boolean/Overload.hs:68)
+    <= (src/Data/Boolean/Overload.hs:70)
+    >= (src/Data/Boolean/Overload.hs:72)
+    min (src/Data/Boolean/Overload.hs:75)
+    max (src/Data/Boolean/Overload.hs:77)
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/Boolean/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/Boolean-0.2.4-E63HERI2m4QLr7c9NoUMrA
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/Boolean-0.2.4'

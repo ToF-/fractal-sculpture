@@ -1,0 +1,127 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/profunctors-5.6.2'
+Configuring profunctors-5.6.2...
+Preprocessing library for profunctors-5.6.2..
+Building library for profunctors-5.6.2..
+[ 1 of 16] Compiling Data.Profunctor.Unsafe ( src/Data/Profunctor/Unsafe.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Unsafe.o )
+[ 2 of 16] Compiling Data.Profunctor.Types ( src/Data/Profunctor/Types.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Types.o )
+[ 3 of 16] Compiling Data.Profunctor.Monad ( src/Data/Profunctor/Monad.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Monad.o )
+[ 4 of 16] Compiling Data.Profunctor.Adjunction ( src/Data/Profunctor/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Adjunction.o )
+[ 5 of 16] Compiling Data.Profunctor.Strong ( src/Data/Profunctor/Strong.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Strong.o )
+[ 6 of 16] Compiling Data.Profunctor.Closed ( src/Data/Profunctor/Closed.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Closed.o )
+[ 7 of 16] Compiling Data.Profunctor.Choice ( src/Data/Profunctor/Choice.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Choice.o )
+[ 8 of 16] Compiling Data.Profunctor.Traversing ( src/Data/Profunctor/Traversing.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Traversing.o )
+[ 9 of 16] Compiling Data.Profunctor.Mapping ( src/Data/Profunctor/Mapping.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Mapping.o )
+[10 of 16] Compiling Data.Profunctor  ( src/Data/Profunctor.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor.o )
+[11 of 16] Compiling Data.Profunctor.Sieve ( src/Data/Profunctor/Sieve.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Sieve.o )
+[12 of 16] Compiling Data.Profunctor.Rep ( src/Data/Profunctor/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Rep.o )
+[13 of 16] Compiling Data.Profunctor.Composition ( src/Data/Profunctor/Composition.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Composition.o )
+[14 of 16] Compiling Data.Profunctor.Ran ( src/Data/Profunctor/Ran.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Ran.o )
+[15 of 16] Compiling Data.Profunctor.Cayley ( src/Data/Profunctor/Cayley.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Cayley.o )
+[16 of 16] Compiling Data.Profunctor.Yoneda ( src/Data/Profunctor/Yoneda.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Yoneda.o )
+[ 1 of 16] Compiling Data.Profunctor.Unsafe ( src/Data/Profunctor/Unsafe.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Unsafe.p_o )
+[ 2 of 16] Compiling Data.Profunctor.Types ( src/Data/Profunctor/Types.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Types.p_o )
+[ 3 of 16] Compiling Data.Profunctor.Monad ( src/Data/Profunctor/Monad.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Monad.p_o )
+[ 4 of 16] Compiling Data.Profunctor.Adjunction ( src/Data/Profunctor/Adjunction.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Adjunction.p_o )
+[ 5 of 16] Compiling Data.Profunctor.Strong ( src/Data/Profunctor/Strong.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Strong.p_o )
+[ 6 of 16] Compiling Data.Profunctor.Closed ( src/Data/Profunctor/Closed.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Closed.p_o )
+[ 7 of 16] Compiling Data.Profunctor.Choice ( src/Data/Profunctor/Choice.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Choice.p_o )
+[ 8 of 16] Compiling Data.Profunctor.Traversing ( src/Data/Profunctor/Traversing.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Traversing.p_o )
+[ 9 of 16] Compiling Data.Profunctor.Mapping ( src/Data/Profunctor/Mapping.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Mapping.p_o )
+[10 of 16] Compiling Data.Profunctor  ( src/Data/Profunctor.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor.p_o )
+[11 of 16] Compiling Data.Profunctor.Sieve ( src/Data/Profunctor/Sieve.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Sieve.p_o )
+[12 of 16] Compiling Data.Profunctor.Rep ( src/Data/Profunctor/Rep.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Rep.p_o )
+[13 of 16] Compiling Data.Profunctor.Composition ( src/Data/Profunctor/Composition.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Composition.p_o )
+[14 of 16] Compiling Data.Profunctor.Ran ( src/Data/Profunctor/Ran.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Ran.p_o )
+[15 of 16] Compiling Data.Profunctor.Cayley ( src/Data/Profunctor/Cayley.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Cayley.p_o )
+[16 of 16] Compiling Data.Profunctor.Yoneda ( src/Data/Profunctor/Yoneda.hs, dist/dist-sandbox-b5a179e0/build/Data/Profunctor/Yoneda.p_o )
+Preprocessing library for profunctors-5.6.2..
+Running Haddock on library for profunctors-5.6.2..
+Haddock coverage:
+Warning: 'unsafeCoerce' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% (  3 /  3) in 'Data.Profunctor.Unsafe'
+ 100% (  7 /  7) in 'Data.Profunctor.Types'
+ 100% (  4 /  4) in 'Data.Profunctor.Monad'
+ 100% (  2 /  2) in 'Data.Profunctor.Adjunction'
+Warning: 'Procompose' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  88% ( 15 / 17) in 'Data.Profunctor.Strong'
+  Missing documentation for:
+    uncurry' (src/Data/Profunctor/Strong.hs:97)
+    strong (src/Data/Profunctor/Strong.hs:101)
+  71% (  5 /  7) in 'Data.Profunctor.Closed'
+  Missing documentation for:
+    Environment (src/Data/Profunctor/Closed.hs:195)
+    curry' (src/Data/Profunctor/Closed.hs:95)
+Warning: 'costrength' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'absurd' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  92% ( 12 / 13) in 'Data.Profunctor.Choice'
+  Missing documentation for:
+    Cochoice (src/Data/Profunctor/Choice.hs:301)
+  57% (  8 / 14) in 'Data.Profunctor.Traversing'
+  Missing documentation for:
+    Module header
+    CofreeTraversing (src/Data/Profunctor/Traversing.hs:144)
+    firstTraversing (src/Data/Profunctor/Traversing.hs:42)
+    secondTraversing (src/Data/Profunctor/Traversing.hs:45)
+    leftTraversing (src/Data/Profunctor/Traversing.hs:66)
+    rightTraversing (src/Data/Profunctor/Traversing.hs:69)
+  44% (  4 /  9) in 'Data.Profunctor.Mapping'
+  Missing documentation for:
+    Mapping (src/Data/Profunctor/Mapping.hs:43)
+    CofreeMapping (src/Data/Profunctor/Mapping.hs:107)
+    wanderMapping (src/Data/Profunctor/Mapping.hs:98)
+    traverseMapping (src/Data/Profunctor/Mapping.hs:101)
+    closedMapping (src/Data/Profunctor/Mapping.hs:104)
+  80% ( 16 / 20) in 'Data.Profunctor'
+  Missing documentation for:
+    uncurry' (src/Data/Profunctor/Strong.hs:97)
+    curry' (src/Data/Profunctor/Closed.hs:95)
+    Mapping (src/Data/Profunctor/Mapping.hs:43)
+    Cochoice (src/Data/Profunctor/Choice.hs:301)
+ 100% (  3 /  3) in 'Data.Profunctor.Sieve'
+Warning: 'Iso'' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  71% ( 17 / 24) in 'Data.Profunctor.Rep'
+  Missing documentation for:
+    prepAdj (src/Data/Profunctor/Rep.hs:203)
+    unprepAdj (src/Data/Profunctor/Rep.hs:206)
+    prepUnit (src/Data/Profunctor/Rep.hs:209)
+    prepCounit (src/Data/Profunctor/Rep.hs:212)
+    uncoprepAdj (src/Data/Profunctor/Rep.hs:237)
+    coprepUnit (src/Data/Profunctor/Rep.hs:240)
+    coprepCounit (src/Data/Profunctor/Rep.hs:243)
+  89% ( 17 / 19) in 'Data.Profunctor.Composition'
+  Missing documentation for:
+    procomposed (src/Data/Profunctor/Composition.hs:79)
+    mu (src/Data/Profunctor/Composition.hs:310)
+Warning: 'counit' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  50% (  4 /  8) in 'Data.Profunctor.Ran'
+  Missing documentation for:
+    precomposeRan (src/Data/Profunctor/Ran.hs:85)
+    curryRan (src/Data/Profunctor/Ran.hs:89)
+    uncurryRan (src/Data/Profunctor/Ran.hs:93)
+    decomposeCodensity (src/Data/Profunctor/Ran.hs:132)
+  67% (  2 /  3) in 'Data.Profunctor.Cayley'
+  Missing documentation for:
+    mapCayley (src/Data/Profunctor/Cayley.hs:107)
+  86% (  6 /  7) in 'Data.Profunctor.Yoneda'
+  Missing documentation for:
+    Coyoneda (src/Data/Profunctor/Yoneda.hs:135)
+Warning: Data.Profunctor.Rep: could not find link destinations for:
+    Iso
+Warning: Data.Profunctor.Composition: could not find link destinations for:
+    Iso
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/profunctors/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/profunctors-5.6.2-9UixHbwAt8m7VOB2n1HIFJ
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/profunctors-5.6.2'

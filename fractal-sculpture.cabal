@@ -32,6 +32,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , diagrams-svg
   default-language: Haskell2010
 
 executable fractal-sculpture-exe
@@ -43,6 +46,9 @@ executable fractal-sculpture-exe
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , diagrams-svg
     , fractal-sculpture
   default-language: Haskell2010
 
@@ -56,5 +62,8 @@ test-suite fractal-sculpture-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , diagrams-svg
     , fractal-sculpture
   default-language: Haskell2010

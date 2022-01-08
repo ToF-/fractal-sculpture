@@ -1,0 +1,18 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/base-orphans-0.8.6'
+Configuring base-orphans-0.8.6...
+Preprocessing library for base-orphans-0.8.6..
+Building library for base-orphans-0.8.6..
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-b5a179e0/build/Data/Orphans/Prelude.o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-b5a179e0/build/Data/Orphans.o )
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-b5a179e0/build/Data/Orphans/Prelude.p_o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-b5a179e0/build/Data/Orphans.p_o )
+Preprocessing library for base-orphans-0.8.6..
+Running Haddock on library for base-orphans-0.8.6..
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Orphans'
+Warning: Data.Orphans: could not find link destinations for:
+    unsafeIndex unsafeRangeSize Typeable1 Typeable2
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/base-orphans/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/base-orphans-0.8.6-5O5jqEW3stE4CAsm1Catjq
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24920/base-orphans-0.8.6'

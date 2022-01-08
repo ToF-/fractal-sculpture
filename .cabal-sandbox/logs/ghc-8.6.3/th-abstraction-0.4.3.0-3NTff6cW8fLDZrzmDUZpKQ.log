@@ -1,0 +1,43 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/th-abstraction-0.4.3.0'
+Configuring th-abstraction-0.4.3.0...
+Preprocessing library for th-abstraction-0.4.3.0..
+Building library for th-abstraction-0.4.3.0..
+[1 of 3] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype/Internal.o )
+[2 of 3] Compiling Language.Haskell.TH.Datatype.TyVarBndr ( src/Language/Haskell/TH/Datatype/TyVarBndr.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype/TyVarBndr.o )
+[3 of 3] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype.o )
+[1 of 3] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype/Internal.p_o )
+[2 of 3] Compiling Language.Haskell.TH.Datatype.TyVarBndr ( src/Language/Haskell/TH/Datatype/TyVarBndr.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype/TyVarBndr.p_o )
+[3 of 3] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-b5a179e0/build/Language/Haskell/TH/Datatype.p_o )
+Preprocessing library for th-abstraction-0.4.3.0..
+Running Haddock on library for th-abstraction-0.4.3.0..
+Haddock coverage:
+  90% ( 35 / 39) in 'Language.Haskell.TH.Datatype.TyVarBndr'
+  Missing documentation for:
+    plainTV
+    kindedTV
+    inferredSpec (src/Language/Haskell/TH/Datatype/TyVarBndr.hs:108)
+    specifiedSpec (src/Language/Haskell/TH/Datatype/TyVarBndr.hs:111)
+Warning: 'datatypeInstVars' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Strict' is ambiguous. It is defined
+    * at src/Language/Haskell/TH/Datatype.hs:298:5
+    * in ‘Language.Haskell.TH.Syntax’
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'Strict' defined at src/Language/Haskell/TH/Datatype.hs:295:1
+Warning: 'resolveFixities' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  92% ( 49 / 53) in 'Language.Haskell.TH.Datatype'
+  Missing documentation for:
+    arrowKCompat (src/Language/Haskell/TH/Datatype.hs:2151)
+    isStrictAnnot (src/Language/Haskell/TH/Datatype.hs:305)
+    notStrictAnnot (src/Language/Haskell/TH/Datatype.hs:305)
+    unpackedAnnot (src/Language/Haskell/TH/Datatype.hs:305)
+Warning: Language.Haskell.TH.Datatype: could not find link destinations for:
+    TANormal TyArg mkExtraKindBinders mergeArguments TypeArg decomposeType NonEmpty substTyVarBndrKinds substTyVarBndrs
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/th-abstraction/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/th-abstraction-0.4.3.0-3NTff6cW8fLDZrzmDUZpKQ
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/th-abstraction-0.4.3.0'

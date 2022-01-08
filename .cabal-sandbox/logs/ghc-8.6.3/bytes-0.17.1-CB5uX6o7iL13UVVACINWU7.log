@@ -1,0 +1,55 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/bytes-0.17.1'
+Configuring bytes-0.17.1...
+Preprocessing library for bytes-0.17.1..
+Building library for bytes-0.17.1..
+[1 of 5] Compiling Data.Bytes.Get   ( src/Data/Bytes/Get.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Get.o )
+[2 of 5] Compiling Data.Bytes.Put   ( src/Data/Bytes/Put.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Put.o )
+[3 of 5] Compiling Data.Bytes.Signed ( src/Data/Bytes/Signed.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Signed.o )
+[4 of 5] Compiling Data.Bytes.VarInt ( src/Data/Bytes/VarInt.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/VarInt.o )
+[5 of 5] Compiling Data.Bytes.Serial ( src/Data/Bytes/Serial.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Serial.o )
+[1 of 5] Compiling Data.Bytes.Get   ( src/Data/Bytes/Get.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Get.p_o )
+[2 of 5] Compiling Data.Bytes.Put   ( src/Data/Bytes/Put.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Put.p_o )
+[3 of 5] Compiling Data.Bytes.Signed ( src/Data/Bytes/Signed.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Signed.p_o )
+[4 of 5] Compiling Data.Bytes.VarInt ( src/Data/Bytes/VarInt.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/VarInt.p_o )
+[5 of 5] Compiling Data.Bytes.Serial ( src/Data/Bytes/Serial.hs, dist/dist-sandbox-b5a179e0/build/Data/Bytes/Serial.p_o )
+Preprocessing library for bytes-0.17.1..
+Running Haddock on library for bytes-0.17.1..
+Haddock coverage:
+  75% (  3 /  4) in 'Data.Bytes.Get'
+  Missing documentation for:
+    MonadGet (src/Data/Bytes/Get.hs:57)
+Warning: 'ByteString' is ambiguous. It is defined
+    * in ‘Data.ByteString.Internal’
+    * in ‘Data.ByteString.Lazy.Internal’
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'ByteString' defined in ‘Data.ByteString.Internal’
+  75% (  3 /  4) in 'Data.Bytes.Put'
+  Missing documentation for:
+    MonadPut (src/Data/Bytes/Put.hs:50)
+  20% (  1 /  5) in 'Data.Bytes.Signed'
+  Missing documentation for:
+    Unsigned (src/Data/Bytes/Signed.hs:22)
+    unsigned (src/Data/Bytes/Signed.hs:37)
+    Signed (src/Data/Bytes/Signed.hs:40)
+    signed (src/Data/Bytes/Signed.hs:54)
+Warning: 'Serial' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  50% (  1 /  2) in 'Data.Bytes.VarInt'
+  Missing documentation for:
+    VarInt (src/Data/Bytes/VarInt.hs:29)
+Warning: 'a' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  71% ( 15 / 21) in 'Data.Bytes.Serial'
+  Missing documentation for:
+    Serial1 (src/Data/Bytes/Serial.hs:685)
+    serialize1 (src/Data/Bytes/Serial.hs:762)
+    deserialize1 (src/Data/Bytes/Serial.hs:766)
+    Serial2 (src/Data/Bytes/Serial.hs:830)
+    serialize2 (src/Data/Bytes/Serial.hs:834)
+    deserialize2 (src/Data/Bytes/Serial.hs:838)
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/bytes/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/bytes-0.17.1-CB5uX6o7iL13UVVACINWU7
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/bytes-0.17.1'

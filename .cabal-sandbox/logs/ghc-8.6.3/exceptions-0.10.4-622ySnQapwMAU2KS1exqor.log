@@ -1,0 +1,38 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/exceptions-0.10.4'
+Configuring exceptions-0.10.4...
+Preprocessing library for exceptions-0.10.4..
+Building library for exceptions-0.10.4..
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Catch.o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Catch/Pure.o )
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Catch.p_o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, dist/dist-sandbox-b5a179e0/build/Control/Monad/Catch/Pure.p_o )
+Preprocessing library for exceptions-0.10.4..
+Running Haddock on library for exceptions-0.10.4..
+Haddock coverage:
+Warning: 'MonadError' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'use' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'release' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'e' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'IOException' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'Except' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 33 / 33) in 'Control.Monad.Catch'
+  80% (  8 / 10) in 'Control.Monad.Catch.Pure'
+  Missing documentation for:
+    Catch (src/Control/Monad/Catch/Pure.hs:96)
+    runCatch (src/Control/Monad/Catch/Pure.hs:98)
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/exceptions/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/exceptions-0.10.4-622ySnQapwMAU2KS1exqor
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/exceptions-0.10.4'

@@ -1,0 +1,62 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/intervals-0.9.2'
+Configuring intervals-0.9.2...
+Preprocessing library for intervals-0.9.2..
+Building library for intervals-0.9.2..
+[1 of 6] Compiling Numeric.Interval.Exception ( src/Numeric/Interval/Exception.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Exception.o )
+[2 of 6] Compiling Numeric.Interval.Internal ( src/Numeric/Interval/Internal.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Internal.o )
+[3 of 6] Compiling Numeric.Interval ( src/Numeric/Interval.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval.o )
+[4 of 6] Compiling Numeric.Interval.Kaucher ( src/Numeric/Interval/Kaucher.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Kaucher.o )
+[5 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src/Numeric/Interval/NonEmpty/Internal.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/NonEmpty/Internal.o )
+[6 of 6] Compiling Numeric.Interval.NonEmpty ( src/Numeric/Interval/NonEmpty.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/NonEmpty.o )
+[1 of 6] Compiling Numeric.Interval.Exception ( src/Numeric/Interval/Exception.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Exception.p_o )
+[2 of 6] Compiling Numeric.Interval.Internal ( src/Numeric/Interval/Internal.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Internal.p_o )
+[3 of 6] Compiling Numeric.Interval ( src/Numeric/Interval.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval.p_o )
+[4 of 6] Compiling Numeric.Interval.Kaucher ( src/Numeric/Interval/Kaucher.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/Kaucher.p_o )
+[5 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src/Numeric/Interval/NonEmpty/Internal.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/NonEmpty/Internal.p_o )
+[6 of 6] Compiling Numeric.Interval.NonEmpty ( src/Numeric/Interval/NonEmpty.hs, dist/dist-sandbox-b5a179e0/build/Numeric/Interval/NonEmpty.p_o )
+Preprocessing library for intervals-0.9.2..
+Running Haddock on library for intervals-0.9.2..
+Haddock coverage:
+   0% (  0 /  3) in 'Numeric.Interval.Exception'
+  Missing documentation for:
+    Module header
+    EmptyInterval (src/Numeric/Interval/Exception.hs:10)
+    AmbiguousComparison (src/Numeric/Interval/Exception.hs:18)
+Warning: 'op' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  90% ( 46 / 51) in 'Numeric.Interval.Internal'
+  Missing documentation for:
+    Interval (src/Numeric/Interval/Internal.hs:78)
+    ... (src/Numeric/Interval/Internal.hs:123)
+    +/- (src/Numeric/Interval/Internal.hs:101)
+    interval (src/Numeric/Interval/Internal.hs:112)
+    bisectIntegral (src/Numeric/Interval/Internal.hs:387)
+  90% ( 46 / 51) in 'Numeric.Interval'
+  Missing documentation for:
+    Interval (src/Numeric/Interval/Internal.hs:78)
+    ... (src/Numeric/Interval/Internal.hs:123)
+    +/- (src/Numeric/Interval/Internal.hs:101)
+    interval (src/Numeric/Interval/Internal.hs:112)
+    bisectIntegral (src/Numeric/Interval/Internal.hs:387)
+Warning: 'op' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  98% ( 49 / 50) in 'Numeric.Interval.Kaucher'
+  Missing documentation for:
+    Interval (src/Numeric/Interval/Kaucher.hs:85)
+Warning: 'op' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  96% ( 47 / 49) in 'Numeric.Interval.NonEmpty.Internal'
+  Missing documentation for:
+    Interval (src/Numeric/Interval/NonEmpty/Internal.hs:87)
+    bisectIntegral (src/Numeric/Interval/NonEmpty/Internal.hs:304)
+  96% ( 47 / 49) in 'Numeric.Interval.NonEmpty'
+  Missing documentation for:
+    Interval (src/Numeric/Interval/NonEmpty/Internal.hs:87)
+    bisectIntegral (src/Numeric/Interval/NonEmpty/Internal.hs:304)
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/intervals/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/intervals-0.9.2-41jMkAGC6RQKahSuQlrBlm
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/intervals-0.9.2'

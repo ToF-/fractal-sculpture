@@ -1,0 +1,241 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/linear-1.21.8'
+Configuring linear-1.21.8...
+Preprocessing library for linear-1.21.8..
+Building library for linear-1.21.8..
+[ 1 of 22] Compiling Linear.Binary    ( src/Linear/Binary.hs, dist/dist-sandbox-b5a179e0/build/Linear/Binary.o )
+[ 2 of 22] Compiling Linear.Conjugate ( src/Linear/Conjugate.hs, dist/dist-sandbox-b5a179e0/build/Linear/Conjugate.o )
+[ 3 of 22] Compiling Linear.Epsilon   ( src/Linear/Epsilon.hs, dist/dist-sandbox-b5a179e0/build/Linear/Epsilon.o )
+[ 4 of 22] Compiling Linear.Instances ( src/Linear/Instances.hs, dist/dist-sandbox-b5a179e0/build/Linear/Instances.o )
+[ 5 of 22] Compiling Linear.Vector    ( src/Linear/Vector.hs, dist/dist-sandbox-b5a179e0/build/Linear/Vector.o )
+[ 6 of 22] Compiling Linear.Metric    ( src/Linear/Metric.hs, dist/dist-sandbox-b5a179e0/build/Linear/Metric.o )
+[ 7 of 22] Compiling Linear.V         ( src/Linear/V.hs, dist/dist-sandbox-b5a179e0/build/Linear/V.o )
+[ 8 of 22] Compiling Linear.V1        ( src/Linear/V1.hs, dist/dist-sandbox-b5a179e0/build/Linear/V1.o )
+[ 9 of 22] Compiling Linear.V2        ( src/Linear/V2.hs, dist/dist-sandbox-b5a179e0/build/Linear/V2.o )
+[10 of 22] Compiling Linear.V3        ( src/Linear/V3.hs, dist/dist-sandbox-b5a179e0/build/Linear/V3.o )
+[11 of 22] Compiling Linear.V4        ( src/Linear/V4.hs, dist/dist-sandbox-b5a179e0/build/Linear/V4.o )
+[12 of 22] Compiling Linear.V0        ( src/Linear/V0.hs, dist/dist-sandbox-b5a179e0/build/Linear/V0.o )
+[13 of 22] Compiling Linear.Quaternion ( src/Linear/Quaternion.hs, dist/dist-sandbox-b5a179e0/build/Linear/Quaternion.o )
+[14 of 22] Compiling Linear.Plucker   ( src/Linear/Plucker.hs, dist/dist-sandbox-b5a179e0/build/Linear/Plucker.o )
+[15 of 22] Compiling Linear.Trace     ( src/Linear/Trace.hs, dist/dist-sandbox-b5a179e0/build/Linear/Trace.o )
+[16 of 22] Compiling Linear.Plucker.Coincides ( src/Linear/Plucker/Coincides.hs, dist/dist-sandbox-b5a179e0/build/Linear/Plucker/Coincides.o )
+[17 of 22] Compiling Linear.Matrix    ( src/Linear/Matrix.hs, dist/dist-sandbox-b5a179e0/build/Linear/Matrix.o )
+[18 of 22] Compiling Linear.Projection ( src/Linear/Projection.hs, dist/dist-sandbox-b5a179e0/build/Linear/Projection.o )
+[19 of 22] Compiling Linear.Algebra   ( src/Linear/Algebra.hs, dist/dist-sandbox-b5a179e0/build/Linear/Algebra.o )
+[20 of 22] Compiling Linear.Covector  ( src/Linear/Covector.hs, dist/dist-sandbox-b5a179e0/build/Linear/Covector.o )
+[21 of 22] Compiling Linear.Affine    ( src/Linear/Affine.hs, dist/dist-sandbox-b5a179e0/build/Linear/Affine.o )
+[22 of 22] Compiling Linear           ( src/Linear.hs, dist/dist-sandbox-b5a179e0/build/Linear.o )
+[ 1 of 22] Compiling Linear.Binary    ( src/Linear/Binary.hs, dist/dist-sandbox-b5a179e0/build/Linear/Binary.p_o )
+[ 2 of 22] Compiling Linear.Conjugate ( src/Linear/Conjugate.hs, dist/dist-sandbox-b5a179e0/build/Linear/Conjugate.p_o )
+[ 3 of 22] Compiling Linear.Epsilon   ( src/Linear/Epsilon.hs, dist/dist-sandbox-b5a179e0/build/Linear/Epsilon.p_o )
+[ 4 of 22] Compiling Linear.Instances ( src/Linear/Instances.hs, dist/dist-sandbox-b5a179e0/build/Linear/Instances.p_o )
+[ 5 of 22] Compiling Linear.Vector    ( src/Linear/Vector.hs, dist/dist-sandbox-b5a179e0/build/Linear/Vector.p_o )
+[ 6 of 22] Compiling Linear.Metric    ( src/Linear/Metric.hs, dist/dist-sandbox-b5a179e0/build/Linear/Metric.p_o )
+[ 7 of 22] Compiling Linear.V         ( src/Linear/V.hs, dist/dist-sandbox-b5a179e0/build/Linear/V.p_o )
+[ 8 of 22] Compiling Linear.V1        ( src/Linear/V1.hs, dist/dist-sandbox-b5a179e0/build/Linear/V1.p_o )
+[ 9 of 22] Compiling Linear.V2        ( src/Linear/V2.hs, dist/dist-sandbox-b5a179e0/build/Linear/V2.p_o )
+[10 of 22] Compiling Linear.V3        ( src/Linear/V3.hs, dist/dist-sandbox-b5a179e0/build/Linear/V3.p_o )
+[11 of 22] Compiling Linear.V4        ( src/Linear/V4.hs, dist/dist-sandbox-b5a179e0/build/Linear/V4.p_o )
+[12 of 22] Compiling Linear.V0        ( src/Linear/V0.hs, dist/dist-sandbox-b5a179e0/build/Linear/V0.p_o )
+[13 of 22] Compiling Linear.Quaternion ( src/Linear/Quaternion.hs, dist/dist-sandbox-b5a179e0/build/Linear/Quaternion.p_o )
+[14 of 22] Compiling Linear.Plucker   ( src/Linear/Plucker.hs, dist/dist-sandbox-b5a179e0/build/Linear/Plucker.p_o )
+[15 of 22] Compiling Linear.Trace     ( src/Linear/Trace.hs, dist/dist-sandbox-b5a179e0/build/Linear/Trace.p_o )
+[16 of 22] Compiling Linear.Plucker.Coincides ( src/Linear/Plucker/Coincides.hs, dist/dist-sandbox-b5a179e0/build/Linear/Plucker/Coincides.p_o )
+[17 of 22] Compiling Linear.Matrix    ( src/Linear/Matrix.hs, dist/dist-sandbox-b5a179e0/build/Linear/Matrix.p_o )
+[18 of 22] Compiling Linear.Projection ( src/Linear/Projection.hs, dist/dist-sandbox-b5a179e0/build/Linear/Projection.p_o )
+[19 of 22] Compiling Linear.Algebra   ( src/Linear/Algebra.hs, dist/dist-sandbox-b5a179e0/build/Linear/Algebra.p_o )
+[20 of 22] Compiling Linear.Covector  ( src/Linear/Covector.hs, dist/dist-sandbox-b5a179e0/build/Linear/Covector.p_o )
+[21 of 22] Compiling Linear.Affine    ( src/Linear/Affine.hs, dist/dist-sandbox-b5a179e0/build/Linear/Affine.p_o )
+[22 of 22] Compiling Linear           ( src/Linear.hs, dist/dist-sandbox-b5a179e0/build/Linear.p_o )
+Preprocessing library for linear-1.21.8..
+Running Haddock on library for linear-1.21.8..
+Haddock coverage:
+ 100% (  3 /  3) in 'Linear.Binary'
+ 100% (  3 /  3) in 'Linear.Conjugate'
+ 100% (  2 /  2) in 'Linear.Epsilon'
+ 100% (  1 /  1) in 'Linear.Instances'
+Warning: 'unionWith' is ambiguous. It is defined
+    * in ‘Data.HashMap.Internal’
+    * in ‘Data.Map.Internal’
+    * in ‘Data.IntMap.Internal’
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'unionWith' defined in ‘Data.HashMap.Internal’
+Warning: 'intersectionWith' is ambiguous. It is defined
+    * in ‘Data.HashMap.Internal’
+    * in ‘Data.Map.Internal’
+    * in ‘Data.IntMap.Internal’
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'intersectionWith' defined in ‘Data.HashMap.Internal’
+ 100% ( 13 / 13) in 'Linear.Vector'
+ 100% (  4 /  4) in 'Linear.Metric'
+  15% (  2 / 13) in 'Linear.V'
+  Missing documentation for:
+    V (src/Linear/V.hs:135)
+    dim (src/Linear/V.hs:139)
+    Dim (src/Linear/V.hs:107)
+    reifyDim (src/Linear/V.hs:169)
+    reifyVector (src/Linear/V.hs:175)
+    reifyDimNat (src/Linear/V.hs:161)
+    reifyVectorNat (src/Linear/V.hs:165)
+    fromVector (src/Linear/V.hs:385)
+    Finite (src/Linear/V.hs:112)
+    _V (src/Linear/V.hs:124)
+    _V' (src/Linear/V.hs:127)
+  75% (  3 /  4) in 'Linear.V1'
+  Missing documentation for:
+    ex (src/Linear/V1.hs:258)
+  64% (  7 / 11) in 'Linear.V2'
+  Missing documentation for:
+    ex (src/Linear/V1.hs:258)
+    ey (src/Linear/V2.hs:294)
+    angle (src/Linear/V2.hs:436)
+    unangle (src/Linear/V2.hs:439)
+  40% (  8 / 20) in 'Linear.V3'
+  Missing documentation for:
+    _xz (src/Linear/V3.hs:267)
+    _yz (src/Linear/V3.hs:267)
+    _zx (src/Linear/V3.hs:267)
+    _zy (src/Linear/V3.hs:267)
+    _xzy (src/Linear/V3.hs:281)
+    _yxz (src/Linear/V3.hs:281)
+    _yzx (src/Linear/V3.hs:281)
+    _zxy (src/Linear/V3.hs:281)
+    _zyx (src/Linear/V3.hs:281)
+    ex (src/Linear/V1.hs:258)
+    ey (src/Linear/V2.hs:294)
+    ez (src/Linear/V3.hs:298)
+  14% ( 10 / 70) in 'Linear.V4'
+  Missing documentation for:
+    _xz (src/Linear/V3.hs:267)
+    _yz (src/Linear/V3.hs:267)
+    _zx (src/Linear/V3.hs:267)
+    _zy (src/Linear/V3.hs:267)
+    _xzy (src/Linear/V3.hs:281)
+    _yxz (src/Linear/V3.hs:281)
+    _yzx (src/Linear/V3.hs:281)
+    _zxy (src/Linear/V3.hs:281)
+    _zyx (src/Linear/V3.hs:281)
+    _xw (src/Linear/V4.hs:280)
+    _yw (src/Linear/V4.hs:280)
+    _zw (src/Linear/V4.hs:280)
+    _wx (src/Linear/V4.hs:280)
+    _wy (src/Linear/V4.hs:280)
+    _wz (src/Linear/V4.hs:280)
+    _xyw (src/Linear/V4.hs:299)
+    _xzw (src/Linear/V4.hs:299)
+    _xwy (src/Linear/V4.hs:299)
+    _xwz (src/Linear/V4.hs:299)
+    _yxw (src/Linear/V4.hs:299)
+    _yzw (src/Linear/V4.hs:299)
+    _ywx (src/Linear/V4.hs:299)
+    _ywz (src/Linear/V4.hs:299)
+    _zxw (src/Linear/V4.hs:299)
+    _zyw (src/Linear/V4.hs:299)
+    _zwx (src/Linear/V4.hs:299)
+    _zwy (src/Linear/V4.hs:299)
+    _wxy (src/Linear/V4.hs:299)
+    _wxz (src/Linear/V4.hs:299)
+    _wyx (src/Linear/V4.hs:299)
+    _wyz (src/Linear/V4.hs:299)
+    _wzx (src/Linear/V4.hs:299)
+    _wzy (src/Linear/V4.hs:299)
+    _xywz (src/Linear/V4.hs:354)
+    _xzyw (src/Linear/V4.hs:354)
+    _xzwy (src/Linear/V4.hs:354)
+    _xwyz (src/Linear/V4.hs:354)
+    _xwzy (src/Linear/V4.hs:354)
+    _yxzw (src/Linear/V4.hs:354)
+    _yxwz (src/Linear/V4.hs:354)
+    _yzxw (src/Linear/V4.hs:354)
+    _yzwx (src/Linear/V4.hs:354)
+    _ywxz (src/Linear/V4.hs:354)
+    _ywzx (src/Linear/V4.hs:354)
+    _zxyw (src/Linear/V4.hs:354)
+    _zxwy (src/Linear/V4.hs:354)
+    _zyxw (src/Linear/V4.hs:354)
+    _zywx (src/Linear/V4.hs:354)
+    _zwxy (src/Linear/V4.hs:354)
+    _zwyx (src/Linear/V4.hs:354)
+    _wxyz (src/Linear/V4.hs:354)
+    _wxzy (src/Linear/V4.hs:354)
+    _wyxz (src/Linear/V4.hs:354)
+    _wyzx (src/Linear/V4.hs:354)
+    _wzxy (src/Linear/V4.hs:354)
+    _wzyx (src/Linear/V4.hs:354)
+    ex (src/Linear/V1.hs:258)
+    ey (src/Linear/V2.hs:294)
+    ez (src/Linear/V3.hs:298)
+    ew (src/Linear/V4.hs:426)
+ 100% (  2 /  2) in 'Linear.V0'
+  79% ( 15 / 19) in 'Linear.Quaternion'
+  Missing documentation for:
+    ee (src/Linear/Quaternion.hs:316)
+    ei (src/Linear/Quaternion.hs:316)
+    ej (src/Linear/Quaternion.hs:337)
+    ek (src/Linear/Quaternion.hs:337)
+  83% ( 30 / 36) in 'Linear.Plucker'
+  Missing documentation for:
+    e01 (src/Linear/Plucker.hs:406)
+    e02 (src/Linear/Plucker.hs:406)
+    e03 (src/Linear/Plucker.hs:406)
+    e12 (src/Linear/Plucker.hs:406)
+    e31 (src/Linear/Plucker.hs:406)
+    e23 (src/Linear/Plucker.hs:406)
+  67% (  2 /  3) in 'Linear.Trace'
+  Missing documentation for:
+    Trace (src/Linear/Trace.hs:48)
+ 100% (  2 /  2) in 'Linear.Plucker.Coincides'
+Warning: 'Lens' is ambiguous. It is defined
+    * in ‘Control.Lens.Reified’
+    * in ‘Control.Lens.Type’
+    You may be able to disambiguate the identifier by qualifying it or
+    by hiding some imports.
+    Defaulting to 'Lens' defined in ‘Control.Lens.Type’
+  98% ( 55 / 56) in 'Linear.Matrix'
+  Missing documentation for:
+    Trace (src/Linear/Trace.hs:48)
+  80% (  8 / 10) in 'Linear.Projection'
+  Missing documentation for:
+    inverseInfinitePerspective (src/Linear/Projection.hs:179)
+    inverseFrustum (src/Linear/Projection.hs:134)
+  43% (  3 /  7) in 'Linear.Algebra'
+  Missing documentation for:
+    multRep (src/Linear/Algebra.hs:38)
+    unitalRep (src/Linear/Algebra.hs:41)
+    comultRep (src/Linear/Algebra.hs:82)
+    counitalRep (src/Linear/Algebra.hs:85)
+  67% (  2 /  3) in 'Linear.Covector'
+  Missing documentation for:
+    $* (src/Linear/Covector.hs:30)
+  58% (  7 / 12) in 'Linear.Affine'
+  Missing documentation for:
+    lensP (src/Linear/Affine.hs:179)
+    _Point (src/Linear/Affine.hs:183)
+    .# (src/Linear/Affine.hs:194)
+    #. (src/Linear/Affine.hs:198)
+    unP (src/Linear/Affine.hs:202)
+ 100% ( 17 / 17) in 'Linear'
+Warning: Linear.Vector: could not find link destinations for:
+    GAdditive
+Warning: Linear.V: could not find link destinations for:
+    D:R:MVectorsV0 MV_VN D:R:VectorV0 V_VN
+Warning: Linear.V1: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsV10 MV_V1 D:R:VectorV10 V_V1
+Warning: Linear.V2: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsV20 MV_V2 D:R:VectorV20 V_V2
+Warning: Linear.V3: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsV30 MV_V3 D:R:VectorV30 V_V3
+Warning: Linear.V4: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsV40 MV_V4 D:R:VectorV40 V_V4
+Warning: Linear.V0: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsV00 MV_V0 D:R:VectorV00 V_V0
+Warning: Linear.Quaternion: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsQuaternion0 MV_Quaternion D:R:VectorQuaternion0 V_Quaternion
+Warning: Linear.Plucker: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsPlucker0 MV_Plucker D:R:VectorPlucker0 V_Plucker
+Warning: Linear.Affine: could not find link destinations for:
+    unsafeIndex unsafeRangeSize D:R:MVectorsPoint0 MV_P D:R:VectorPoint0 V_P
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/linear/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/linear-1.21.8-8Kn07DMOAoPFBymdZn8eTQ
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/linear-1.21.8'

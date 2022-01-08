@@ -1,0 +1,68 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/fsnotify-0.3.0.1'
+Configuring fsnotify-0.3.0.1...
+Preprocessing library for fsnotify-0.3.0.1..
+Building library for fsnotify-0.3.0.1..
+[1 of 7] Compiling System.FSNotify.Path ( src/System/FSNotify/Path.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Path.o )
+[2 of 7] Compiling System.FSNotify.Types ( src/System/FSNotify/Types.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Types.o )
+[3 of 7] Compiling System.FSNotify.Listener ( src/System/FSNotify/Listener.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Listener.o )
+[4 of 7] Compiling System.FSNotify.Polling ( src/System/FSNotify/Polling.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Polling.o )
+
+src/System/FSNotify/Polling.hs:64:17: warning: [-Wname-shadowing]
+    This binding for ‘path’ shadows the existing binding
+      bound at src/System/FSNotify/Polling.hs:58:22
+   |
+64 |     pathAndInfo path = handle (\(_ :: IOException) -> return Nothing) $ do
+   |                 ^^^^
+[5 of 7] Compiling System.FSNotify.OSX ( src/System/FSNotify/OSX.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/OSX.o )
+
+src/System/FSNotify/OSX.hs:84:5: warning: [-Wunused-local-binds]
+    Defined but not used: ‘isFile’
+   |
+84 |     isFile = hasFlag e FSE.eventFlagItemIsFile
+   |     ^^^^^^
+[6 of 7] Compiling System.FSNotify  ( src/System/FSNotify.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify.o )
+[7 of 7] Compiling System.FSNotify.Devel ( src/System/FSNotify/Devel.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Devel.o )
+[1 of 7] Compiling System.FSNotify.Path ( src/System/FSNotify/Path.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Path.p_o )
+[2 of 7] Compiling System.FSNotify.Types ( src/System/FSNotify/Types.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Types.p_o )
+[3 of 7] Compiling System.FSNotify.Listener ( src/System/FSNotify/Listener.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Listener.p_o )
+[4 of 7] Compiling System.FSNotify.Polling ( src/System/FSNotify/Polling.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Polling.p_o )
+
+src/System/FSNotify/Polling.hs:64:17: warning: [-Wname-shadowing]
+    This binding for ‘path’ shadows the existing binding
+      bound at src/System/FSNotify/Polling.hs:58:22
+   |
+64 |     pathAndInfo path = handle (\(_ :: IOException) -> return Nothing) $ do
+   |                 ^^^^
+[5 of 7] Compiling System.FSNotify.OSX ( src/System/FSNotify/OSX.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/OSX.p_o )
+
+src/System/FSNotify/OSX.hs:84:5: warning: [-Wunused-local-binds]
+    Defined but not used: ‘isFile’
+   |
+84 |     isFile = hasFlag e FSE.eventFlagItemIsFile
+   |     ^^^^^^
+[6 of 7] Compiling System.FSNotify  ( src/System/FSNotify.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify.p_o )
+[7 of 7] Compiling System.FSNotify.Devel ( src/System/FSNotify/Devel.hs, dist/dist-sandbox-b5a179e0/build/System/FSNotify/Devel.p_o )
+Preprocessing library for fsnotify-0.3.0.1..
+Running Haddock on library for fsnotify-0.3.0.1..
+
+src/System/FSNotify/Polling.hs:64:17: warning: [-Wname-shadowing]
+    This binding for ‘path’ shadows the existing binding
+      bound at src/System/FSNotify/Polling.hs:58:22
+   |
+64 |     pathAndInfo path = handle (\(_ :: IOException) -> return Nothing) $ do
+   |                 ^^^^
+
+src/System/FSNotify/OSX.hs:84:5: warning: [-Wunused-local-binds]
+    Defined but not used: ‘isFile’
+   |
+84 |     isFile = hasFlag e FSE.eventFlagItemIsFile
+   |     ^^^^^^
+Haddock coverage:
+  92% ( 24 / 26) in 'System.FSNotify'
+  Missing documentation for:
+    EventChannel (src/System/FSNotify/Types.hs:61)
+    eventIsDirectory (src/System/FSNotify/Types.hs:54)
+ 100% (  6 /  6) in 'System.FSNotify.Devel'
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/fsnotify/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/fsnotify-0.3.0.1-AZC86kmNILU1OynL22XtJz
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24919/fsnotify-0.3.0.1'

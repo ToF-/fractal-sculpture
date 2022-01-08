@@ -1,0 +1,111 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/ansi-terminal-0.11.1'
+Configuring ansi-terminal-0.11.1...
+Preprocessing library for ansi-terminal-0.11.1..
+Building library for ansi-terminal-0.11.1..
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Types.o )
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Codes.o )
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Unix.o )
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI.o )
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Types.p_o )
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Codes.p_o )
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI/Unix.p_o )
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-b5a179e0/build/System/Console/ANSI.p_o )
+Preprocessing library for ansi-terminal-0.11.1..
+Running Haddock on library for ansi-terminal-0.11.1..
+Haddock coverage:
+ 100% ( 13 / 13) in 'System.Console.ANSI.Types'
+Warning: 'getReportedCursorPosition' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'getCursorPosition' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'hGetBufNonBlocking' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  58% ( 23 / 40) in 'System.Console.ANSI.Codes'
+  Missing documentation for:
+    cursorUpCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorDownCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorForwardCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorBackwardCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorUpLineCode (src/System/Console/ANSI/Codes.hs:138)
+    cursorDownLineCode (src/System/Console/ANSI/Codes.hs:138)
+    clearFromCursorToScreenEndCode (src/System/Console/ANSI/Codes.hs:181)
+    clearFromCursorToScreenBeginningCode (src/System/Console/ANSI/Codes.hs:181)
+    clearScreenCode (src/System/Console/ANSI/Codes.hs:181)
+    clearFromCursorToLineEndCode (src/System/Console/ANSI/Codes.hs:183)
+    clearFromCursorToLineBeginningCode (src/System/Console/ANSI/Codes.hs:183)
+    clearLineCode (src/System/Console/ANSI/Codes.hs:183)
+    scrollPageUpCode (src/System/Console/ANSI/Codes.hs:193)
+    scrollPageDownCode (src/System/Console/ANSI/Codes.hs:193)
+    setSGRCode (src/System/Console/ANSI/Codes.hs:198)
+    hideCursorCode (src/System/Console/ANSI/Codes.hs:205)
+    showCursorCode (src/System/Console/ANSI/Codes.hs:205)
+Warning: 'hGetBufNonBlocking' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'stderr' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'stdout' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  47% ( 45 / 95) in 'System.Console.ANSI'
+  Missing documentation for:
+    cursorUp (src/includes/Common-Include.hs:22)
+    cursorDown (src/includes/Common-Include.hs:22)
+    cursorForward (src/includes/Common-Include.hs:22)
+    cursorBackward (src/includes/Common-Include.hs:22)
+    hCursorUp (src/includes/Common-Include.hs:18)
+    hCursorDown (src/includes/Common-Include.hs:18)
+    hCursorForward (src/includes/Common-Include.hs:18)
+    hCursorBackward (src/includes/Common-Include.hs:18)
+    cursorUpCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorDownCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorForwardCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorBackwardCode (src/System/Console/ANSI/Codes.hs:130)
+    cursorUpLine (src/includes/Common-Include.hs:33)
+    cursorDownLine (src/includes/Common-Include.hs:33)
+    hCursorUpLine (src/includes/Common-Include.hs:30)
+    hCursorDownLine (src/includes/Common-Include.hs:30)
+    cursorUpLineCode (src/System/Console/ANSI/Codes.hs:138)
+    cursorDownLineCode (src/System/Console/ANSI/Codes.hs:138)
+    hSetCursorColumn (src/includes/Common-Include.hs:38)
+    hSetCursorPosition (src/includes/Common-Include.hs:48)
+    hSaveCursor (src/includes/Common-Include.hs:60)
+    hRestoreCursor (src/includes/Common-Include.hs:60)
+    hReportCursorPosition (src/includes/Common-Include.hs:60)
+    clearFromCursorToScreenEnd (src/includes/Common-Include-Enabled.hs:27)
+    clearFromCursorToScreenBeginning (src/includes/Common-Include-Enabled.hs:27)
+    clearScreen (src/includes/Common-Include-Enabled.hs:27)
+    hClearFromCursorToScreenEnd (src/includes/Common-Include-Enabled.hs:23)
+    hClearFromCursorToScreenBeginning (src/includes/Common-Include-Enabled.hs:23)
+    hClearScreen (src/includes/Common-Include-Enabled.hs:23)
+    clearFromCursorToScreenEndCode (src/System/Console/ANSI/Codes.hs:181)
+    clearFromCursorToScreenBeginningCode (src/System/Console/ANSI/Codes.hs:181)
+    clearScreenCode (src/System/Console/ANSI/Codes.hs:181)
+    clearFromCursorToLineEnd (src/includes/Common-Include-Enabled.hs:37)
+    clearFromCursorToLineBeginning (src/includes/Common-Include-Enabled.hs:37)
+    clearLine (src/includes/Common-Include-Enabled.hs:37)
+    hClearFromCursorToLineEnd (src/includes/Common-Include-Enabled.hs:33)
+    hClearFromCursorToLineBeginning (src/includes/Common-Include-Enabled.hs:33)
+    hClearLine (src/includes/Common-Include-Enabled.hs:33)
+    clearFromCursorToLineEndCode (src/System/Console/ANSI/Codes.hs:183)
+    clearFromCursorToLineBeginningCode (src/System/Console/ANSI/Codes.hs:183)
+    clearLineCode (src/System/Console/ANSI/Codes.hs:183)
+    scrollPageUpCode (src/System/Console/ANSI/Codes.hs:193)
+    scrollPageDownCode (src/System/Console/ANSI/Codes.hs:193)
+    setSGRCode (src/System/Console/ANSI/Codes.hs:198)
+    hideCursor (src/includes/Common-Include.hs:102)
+    showCursor (src/includes/Common-Include.hs:102)
+    hHideCursor (src/includes/Common-Include.hs:100)
+    hShowCursor (src/includes/Common-Include.hs:100)
+    hideCursorCode (src/System/Console/ANSI/Codes.hs:205)
+    showCursorCode (src/System/Console/ANSI/Codes.hs:205)
+Warning: System.Console.ANSI.Types: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/ansi-terminal/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/ansi-terminal-0.11.1-KyoV4jNmxi27g1xeGHEu48
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/ansi-terminal-0.11.1'

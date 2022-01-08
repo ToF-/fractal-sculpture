@@ -1,0 +1,273 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/JuicyPixels-3.3.6'
+Configuring JuicyPixels-3.3.6...
+Preprocessing library for JuicyPixels-3.3.6..
+Building library for JuicyPixels-3.3.6..
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/InternalHelper.o )
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Metadata/Exif.o )
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Metadata.o )
+[ 4 of 30] Compiling Codec.Picture.Tiff.Internal.Types ( src/Codec/Picture/Tiff/Internal/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff/Internal/Types.o )
+[ 5 of 30] Compiling Codec.Picture.Tiff.Internal.Metadata ( src/Codec/Picture/Tiff/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff/Internal/Metadata.o )
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Types.o )
+[ 7 of 30] Compiling Codec.Picture.Png.Internal.Type ( src/Codec/Picture/Png/Internal/Type.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Type.o )
+[ 8 of 30] Compiling Codec.Picture.Png.Internal.Metadata ( src/Codec/Picture/Png/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Metadata.o )
+[ 9 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/VectorByteConversion.o )
+[10 of 30] Compiling Codec.Picture.Tga ( src/Codec/Picture/Tga.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tga.o )
+[11 of 30] Compiling Codec.Picture.Png.Internal.Export ( src/Codec/Picture/Png/Internal/Export.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Export.o )
+[12 of 30] Compiling Codec.Picture.Png ( src/Codec/Picture/Png.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png.o )
+[13 of 30] Compiling Codec.Picture.HDR ( src/Codec/Picture/HDR.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/HDR.o )
+[14 of 30] Compiling Codec.Picture.Bitmap ( src/Codec/Picture/Bitmap.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Bitmap.o )
+[15 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/BitWriter.o )
+[16 of 30] Compiling Codec.Picture.Jpg.Internal.DefaultTable ( src/Codec/Picture/Jpg/Internal/DefaultTable.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/DefaultTable.o )
+[17 of 30] Compiling Codec.Picture.Jpg.Internal.Types ( src/Codec/Picture/Jpg/Internal/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Types.o )
+[18 of 30] Compiling Codec.Picture.Jpg.Internal.Metadata ( src/Codec/Picture/Jpg/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Metadata.o )
+[19 of 30] Compiling Codec.Picture.Jpg.Internal.FastIdct ( src/Codec/Picture/Jpg/Internal/FastIdct.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/FastIdct.o )
+[20 of 30] Compiling Codec.Picture.Jpg.Internal.FastDct ( src/Codec/Picture/Jpg/Internal/FastDct.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/FastDct.o )
+[21 of 30] Compiling Codec.Picture.Jpg.Internal.Common ( src/Codec/Picture/Jpg/Internal/Common.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Common.o )
+[22 of 30] Compiling Codec.Picture.Jpg.Internal.Progressive ( src/Codec/Picture/Jpg/Internal/Progressive.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Progressive.o )
+[23 of 30] Compiling Codec.Picture.Jpg ( src/Codec/Picture/Jpg.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg.o )
+[24 of 30] Compiling Codec.Picture.Gif.Internal.LZWEncoding ( src/Codec/Picture/Gif/Internal/LZWEncoding.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif/Internal/LZWEncoding.o )
+[25 of 30] Compiling Codec.Picture.Gif.Internal.LZW ( src/Codec/Picture/Gif/Internal/LZW.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif/Internal/LZW.o )
+[26 of 30] Compiling Codec.Picture.Tiff ( src/Codec/Picture/Tiff.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff.o )
+[27 of 30] Compiling Codec.Picture.Gif ( src/Codec/Picture/Gif.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif.o )
+[28 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/ColorQuant.o )
+[29 of 30] Compiling Codec.Picture.Saving ( src/Codec/Picture/Saving.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Saving.o )
+[30 of 30] Compiling Codec.Picture    ( src/Codec/Picture.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture.o )
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/InternalHelper.p_o )
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Metadata/Exif.p_o )
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Metadata.p_o )
+[ 4 of 30] Compiling Codec.Picture.Tiff.Internal.Types ( src/Codec/Picture/Tiff/Internal/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff/Internal/Types.p_o )
+[ 5 of 30] Compiling Codec.Picture.Tiff.Internal.Metadata ( src/Codec/Picture/Tiff/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff/Internal/Metadata.p_o )
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Types.p_o )
+[ 7 of 30] Compiling Codec.Picture.Png.Internal.Type ( src/Codec/Picture/Png/Internal/Type.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Type.p_o )
+[ 8 of 30] Compiling Codec.Picture.Png.Internal.Metadata ( src/Codec/Picture/Png/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Metadata.p_o )
+[ 9 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/VectorByteConversion.p_o )
+[10 of 30] Compiling Codec.Picture.Tga ( src/Codec/Picture/Tga.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tga.p_o )
+[11 of 30] Compiling Codec.Picture.Png.Internal.Export ( src/Codec/Picture/Png/Internal/Export.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png/Internal/Export.p_o )
+[12 of 30] Compiling Codec.Picture.Png ( src/Codec/Picture/Png.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Png.p_o )
+[13 of 30] Compiling Codec.Picture.HDR ( src/Codec/Picture/HDR.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/HDR.p_o )
+[14 of 30] Compiling Codec.Picture.Bitmap ( src/Codec/Picture/Bitmap.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Bitmap.p_o )
+[15 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/BitWriter.p_o )
+[16 of 30] Compiling Codec.Picture.Jpg.Internal.DefaultTable ( src/Codec/Picture/Jpg/Internal/DefaultTable.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/DefaultTable.p_o )
+[17 of 30] Compiling Codec.Picture.Jpg.Internal.Types ( src/Codec/Picture/Jpg/Internal/Types.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Types.p_o )
+[18 of 30] Compiling Codec.Picture.Jpg.Internal.Metadata ( src/Codec/Picture/Jpg/Internal/Metadata.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Metadata.p_o )
+[19 of 30] Compiling Codec.Picture.Jpg.Internal.FastIdct ( src/Codec/Picture/Jpg/Internal/FastIdct.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/FastIdct.p_o )
+[20 of 30] Compiling Codec.Picture.Jpg.Internal.FastDct ( src/Codec/Picture/Jpg/Internal/FastDct.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/FastDct.p_o )
+[21 of 30] Compiling Codec.Picture.Jpg.Internal.Common ( src/Codec/Picture/Jpg/Internal/Common.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Common.p_o )
+[22 of 30] Compiling Codec.Picture.Jpg.Internal.Progressive ( src/Codec/Picture/Jpg/Internal/Progressive.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg/Internal/Progressive.p_o )
+[23 of 30] Compiling Codec.Picture.Jpg ( src/Codec/Picture/Jpg.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Jpg.p_o )
+[24 of 30] Compiling Codec.Picture.Gif.Internal.LZWEncoding ( src/Codec/Picture/Gif/Internal/LZWEncoding.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif/Internal/LZWEncoding.p_o )
+[25 of 30] Compiling Codec.Picture.Gif.Internal.LZW ( src/Codec/Picture/Gif/Internal/LZW.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif/Internal/LZW.p_o )
+[26 of 30] Compiling Codec.Picture.Tiff ( src/Codec/Picture/Tiff.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Tiff.p_o )
+[27 of 30] Compiling Codec.Picture.Gif ( src/Codec/Picture/Gif.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Gif.p_o )
+[28 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/ColorQuant.p_o )
+[29 of 30] Compiling Codec.Picture.Saving ( src/Codec/Picture/Saving.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture/Saving.p_o )
+[30 of 30] Compiling Codec.Picture    ( src/Codec/Picture.hs, dist/dist-sandbox-b5a179e0/build/Codec/Picture.p_o )
+Preprocessing library for JuicyPixels-3.3.6..
+Running Haddock on library for JuicyPixels-3.3.6..
+Haddock coverage:
+  83% (  5 /  6) in 'Codec.Picture.Metadata.Exif'
+  Missing documentation for:
+    isInIFD0 (src/Codec/Picture/Metadata/Exif.hs:192)
+Warning: 'ColorProfile' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 27 / 27) in 'Codec.Picture.Metadata'
+   9% (  2 / 23) in 'Codec.Picture.Tiff.Internal.Types'
+  Missing documentation for:
+    Module header
+    Endianness (src/Codec/Picture/Tiff/Internal/Types.hs:60)
+    TiffHeader (src/Codec/Picture/Tiff/Internal/Types.hs:84)
+    TiffPlanarConfiguration (src/Codec/Picture/Tiff/Internal/Types.hs:123)
+    TiffCompression (src/Codec/Picture/Tiff/Internal/Types.hs:137)
+    IfdType (src/Codec/Picture/Tiff/Internal/Types.hs:144)
+    TiffColorspace (src/Codec/Picture/Tiff/Internal/Types.hs:437)
+    TiffSampleFormat (src/Codec/Picture/Tiff/Internal/Types.hs:378)
+    ImageFileDirectory (src/Codec/Picture/Tiff/Internal/Types.hs:399)
+    ExtraSample (src/Codec/Picture/Tiff/Internal/Types.hs:471)
+    Predictor (src/Codec/Picture/Tiff/Internal/Types.hs:197)
+    planarConfgOfConstant (src/Codec/Picture/Tiff/Internal/Types.hs:127)
+    constantToPlaneConfiguration (src/Codec/Picture/Tiff/Internal/Types.hs:133)
+    unpackSampleFormat (src/Codec/Picture/Tiff/Internal/Types.hs:385)
+    packSampleFormat (src/Codec/Picture/Tiff/Internal/Types.hs:393)
+    unpackPhotometricInterpretation (src/Codec/Picture/Tiff/Internal/Types.hs:459)
+    packPhotometricInterpretation (src/Codec/Picture/Tiff/Internal/Types.hs:448)
+    codeOfExtraSample (src/Codec/Picture/Tiff/Internal/Types.hs:476)
+    unPackCompression (src/Codec/Picture/Tiff/Internal/Types.hs:482)
+    packCompression (src/Codec/Picture/Tiff/Internal/Types.hs:492)
+    predictorOfConstant (src/Codec/Picture/Tiff/Internal/Types.hs:202)
+   0% (  0 /  4) in 'Codec.Picture.Tiff.Internal.Metadata'
+  Missing documentation for:
+    Module header
+    extractTiffMetadata (src/Codec/Picture/Tiff/Internal/Metadata.hs:237)
+    encodeTiffStringMetadata (src/Codec/Picture/Tiff/Internal/Metadata.hs:139)
+    exifOffsetIfd (src/Codec/Picture/Tiff/Internal/Metadata.hs:31)
+Warning: 'x' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'y' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 81 / 81) in 'Codec.Picture.Types'
+Warning: 'adam7Reordering' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  59% ( 19 / 32) in 'Codec.Picture.Png.Internal.Type'
+  Missing documentation for:
+    PngPhysicalDimension (src/Codec/Picture/Png/Internal/Type.hs:97)
+    PngGamma (src/Codec/Picture/Png/Internal/Type.hs:108)
+    PngUnit (src/Codec/Picture/Png/Internal/Type.hs:81)
+    APngAnimationControl (src/Codec/Picture/Png/Internal/Type.hs:114)
+    APngFrameControl (src/Codec/Picture/Png/Internal/Type.hs:144)
+    tRNSSignature (src/Codec/Picture/Png/Internal/Type.hs:395)
+    tEXtSignature (src/Codec/Picture/Png/Internal/Type.hs:404)
+    zTXtSignature (src/Codec/Picture/Png/Internal/Type.hs:407)
+    gammaSignature (src/Codec/Picture/Png/Internal/Type.hs:398)
+    pHYsSignature (src/Codec/Picture/Png/Internal/Type.hs:401)
+    animationControlSignature (src/Codec/Picture/Png/Internal/Type.hs:410)
+    chunksWithSig (src/Codec/Picture/Png/Internal/Type.hs:447)
+    mkRawChunk (src/Codec/Picture/Png/Internal/Type.hs:193)
+   0% (  0 /  3) in 'Codec.Picture.Png.Internal.Metadata'
+  Missing documentation for:
+    Module header
+    extractMetadatas (src/Codec/Picture/Png/Internal/Metadata.hs:122)
+    encodeMetadatas (src/Codec/Picture/Png/Internal/Metadata.hs:165)
+ 100% (  7 /  7) in 'Codec.Picture.Tga'
+Warning: 'tEXt' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'gAMA' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'pHYs' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% (  6 /  6) in 'Codec.Picture.Png.Internal.Export'
+ 100% ( 10 / 10) in 'Codec.Picture.Png'
+ 100% (  8 /  8) in 'Codec.Picture.HDR'
+Warning: 'importantColors' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Warning: 'BitField' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% ( 13 / 13) in 'Codec.Picture.Bitmap'
+  38% (  9 / 24) in 'Codec.Picture.Jpg.Internal.DefaultTable'
+  Missing documentation for:
+    HuffmanTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:258)
+    HuffmanPackedTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:54)
+    QuantificationTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:103)
+    HuffmanWriterCode (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:56)
+    scaleQuantisationMatrix (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:130)
+    makeInverseTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:90)
+    packHuffmanTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:58)
+    huffmanPackedDecode (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:144)
+    defaultChromaQuantizationTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:166)
+    defaultLumaQuantizationTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:154)
+    defaultAcChromaHuffmanTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:260)
+    defaultAcChromaHuffmanTable (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:263)
+    defaultAcLumaHuffmanTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:226)
+    defaultDcChromaHuffmanTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:202)
+    defaultDcLumaHuffmanTree (src/Codec/Picture/Jpg/Internal/DefaultTable.hs:178)
+  17% (  4 / 23) in 'Codec.Picture.Jpg.Internal.Types'
+  Missing documentation for:
+    Module header
+    printMacroBlock (src/Codec/Picture/Jpg/Internal/Types.hs:737)
+    printPureMacroBlock (src/Codec/Picture/Jpg/Internal/Types.hs:746)
+    JpgImage (src/Codec/Picture/Jpg/Internal/Types.hs:283)
+    JpgComponent (src/Codec/Picture/Jpg/Internal/Types.hs:270)
+    JpgFrameHeader (src/Codec/Picture/Jpg/Internal/Types.hs:255)
+    JpgFrame (src/Codec/Picture/Jpg/Internal/Types.hs:113)
+    JpgFrameKind (src/Codec/Picture/Jpg/Internal/Types.hs:88)
+    JpgScanHeader (src/Codec/Picture/Jpg/Internal/Types.hs:299)
+    JpgQuantTableSpec (src/Codec/Picture/Jpg/Internal/Types.hs:321)
+    JpgHuffmanTableSpec (src/Codec/Picture/Jpg/Internal/Types.hs:376)
+    JpgImageKind (src/Codec/Picture/Jpg/Internal/Types.hs:598)
+    JpgScanSpecification (src/Codec/Picture/Jpg/Internal/Types.hs:286)
+    JpgColorSpace (src/Codec/Picture/Jpg/Internal/Types.hs:126)
+    AdobeTransform (src/Codec/Picture/Jpg/Internal/Types.hs:138)
+    JpgAdobeApp14 (src/Codec/Picture/Jpg/Internal/Types.hs:144)
+    JpgJFIFApp0 (src/Codec/Picture/Jpg/Internal/Types.hs:172)
+    calculateSize (src/Codec/Picture/Jpg/Internal/Types.hs:333)
+    dctBlockSize (src/Codec/Picture/Jpg/Internal/Types.hs:756)
+   0% (  0 /  3) in 'Codec.Picture.Jpg.Internal.Metadata'
+  Missing documentation for:
+    Module header
+    extractMetadatas (src/Codec/Picture/Jpg/Internal/Metadata.hs:23)
+    encodeMetadatas (src/Codec/Picture/Jpg/Internal/Metadata.hs:31)
+Warning: 'fast' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% (  5 /  5) in 'Codec.Picture.Jpg.Internal.FastIdct'
+  67% (  2 /  3) in 'Codec.Picture.Jpg.Internal.FastDct'
+  Missing documentation for:
+    Module header
+  29% (  5 / 17) in 'Codec.Picture.Jpg.Internal.Common'
+  Missing documentation for:
+    Module header
+    JpgUnpackerParameter (src/Codec/Picture/Jpg/Internal/Common.hs:46)
+    decodeInt (src/Codec/Picture/Jpg/Internal/Common.hs:84)
+    dcCoefficientDecode (src/Codec/Picture/Jpg/Internal/Common.hs:102)
+    decodeRrrrSsss (src/Codec/Picture/Jpg/Internal/Common.hs:95)
+    zigZagReorderForward (src/Codec/Picture/Jpg/Internal/Common.hs:148)
+    zigZagReorderForwardv (src/Codec/Picture/Jpg/Internal/Common.hs:138)
+    zigZagReorder (src/Codec/Picture/Jpg/Internal/Common.hs:170)
+    inverseDirectCosineTransform (src/Codec/Picture/Jpg/Internal/Common.hs:121)
+    rasterMap (src/Codec/Picture/Jpg/Internal/Common.hs:189)
+    decodeRestartInterval (src/Codec/Picture/Jpg/Internal/Common.hs:73)
+    toBlockSize (src/Codec/Picture/Jpg/Internal/Common.hs:70)
+   0% (  0 /  3) in 'Codec.Picture.Jpg.Internal.Progressive'
+  Missing documentation for:
+    Module header
+    JpgUnpackerParameter (src/Codec/Picture/Jpg/Internal/Common.hs:46)
+    progressiveUnpack (src/Codec/Picture/Jpg/Internal/Progressive.hs:217)
+ 100% (  8 /  8) in 'Codec.Picture.Jpg'
+   0% (  0 /  2) in 'Codec.Picture.Gif.Internal.LZWEncoding'
+  Missing documentation for:
+    Module header
+    lzwEncode (src/Codec/Picture/Gif/Internal/LZWEncoding.hs:65)
+   0% (  0 /  3) in 'Codec.Picture.Gif.Internal.LZW'
+  Missing documentation for:
+    Module header
+    decodeLzw (src/Codec/Picture/Gif/Internal/LZW.hs:61)
+    decodeLzwTiff (src/Codec/Picture/Gif/Internal/LZW.hs:72)
+ 100% (  7 /  7) in 'Codec.Picture.Tiff'
+  91% ( 20 / 22) in 'Codec.Picture.Gif'
+  Missing documentation for:
+    GifDisposalMethod (src/Codec/Picture/Gif.hs:271)
+    writeComplexGifImage (src/Codec/Picture/Gif.hs:1005)
+ 100% (  6 /  6) in 'Codec.Picture.ColorQuant'
+Warning: 'decodeImage' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+ 100% (  8 /  8) in 'Codec.Picture.Saving'
+Warning: 'colorSpaceConversion' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+Cannot find documentation for: $graph
+ 100% (113 /113) in 'Codec.Picture'
+Warning: Codec.Picture.Types: could not find link destinations for:
+    colorSpaceOfPixel extraSampleCodeOfPixel subSamplingInfo sampleFormat toComponentIndex tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType bitsPerPixel bmpEncode hasAlpha defaultPalette BmpPalette additionalBlocks componentsOfColorSpace encodingState EncoderState imageHuffmanTables scanSpecificationOfColorSpace quantTableSpec maximumSubSamplingOf
+Warning: Codec.Picture.Tga: could not find link destinations for:
+    tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType
+Warning: Codec.Picture.Bitmap: could not find link destinations for:
+    BmpPalette encodeBitmapWithPalette bitsPerPixel bmpEncode hasAlpha defaultPalette bitPerPixel colorSpaceType CalibratedRGB ProfileEmbedded ProfileLinked
+Warning: Codec.Picture.Jpg.Internal.DefaultTable: could not find link destinations for:
+    BoolReader
+Warning: Codec.Picture.Jpg.Internal.Types: could not find link destinations for:
+    SizeCalculable
+Warning: Codec.Picture.Jpg.Internal.Common: could not find link destinations for:
+    BoolReader
+Warning: Codec.Picture.Jpg: could not find link destinations for:
+    componentsOfColorSpace encodingState scanSpecificationOfColorSpace additionalBlocks EncoderState imageHuffmanTables quantTableSpec maximumSubSamplingOf
+Warning: Codec.Picture.Gif.Internal.LZW: could not find link destinations for:
+    BoolReader
+Warning: Codec.Picture.Tiff: could not find link destinations for:
+    colorSpaceOfPixel extraSampleCodeOfPixel subSamplingInfo sampleFormat
+Warning: Codec.Picture.ColorQuant: could not find link destinations for:
+    Fold fold
+Warning: Codec.Picture: could not find link destinations for:
+    bitsPerPixel bmpEncode hasAlpha defaultPalette BmpPalette tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType colorSpaceOfPixel extraSampleCodeOfPixel subSamplingInfo sampleFormat toComponentIndex additionalBlocks componentsOfColorSpace encodingState EncoderState imageHuffmanTables scanSpecificationOfColorSpace quantTableSpec maximumSubSamplingOf
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/JuicyPixels/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/JuicyPixels-3.3.6-H1TGUlVpvH92SblSiNyowB
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/JuicyPixels-3.3.6'

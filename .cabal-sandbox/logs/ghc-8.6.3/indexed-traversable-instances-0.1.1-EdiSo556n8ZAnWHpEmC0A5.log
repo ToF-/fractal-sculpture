@@ -1,0 +1,14 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/indexed-traversable-instances-0.1.1'
+Configuring indexed-traversable-instances-0.1.1...
+Preprocessing library for indexed-traversable-instances-0.1.1..
+Building library for indexed-traversable-instances-0.1.1..
+[1 of 1] Compiling Data.Functor.WithIndex.Instances ( src/Data/Functor/WithIndex/Instances.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/WithIndex/Instances.o )
+[1 of 1] Compiling Data.Functor.WithIndex.Instances ( src/Data/Functor/WithIndex/Instances.hs, dist/dist-sandbox-b5a179e0/build/Data/Functor/WithIndex/Instances.p_o )
+Preprocessing library for indexed-traversable-instances-0.1.1..
+Running Haddock on library for indexed-traversable-instances-0.1.1..
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Functor.WithIndex.Instances'
+Documentation created:
+dist/dist-sandbox-b5a179e0/doc/html/indexed-traversable-instances/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/indexed-traversable-instances-0.1.1-EdiSo556n8ZAnWHpEmC0A5
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24921/indexed-traversable-instances-0.1.1'

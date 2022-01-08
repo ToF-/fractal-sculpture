@@ -1,0 +1,25 @@
+cabal: Entering directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/tagged-0.8.6.1'
+Configuring tagged-0.8.6.1...
+Preprocessing library for tagged-0.8.6.1..
+Building library for tagged-0.8.6.1..
+[1 of 2] Compiling Data.Proxy.TH    ( src/Data/Proxy/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Proxy/TH.o )
+[2 of 2] Compiling Data.Tagged      ( src/Data/Tagged.hs, dist/dist-sandbox-b5a179e0/build/Data/Tagged.o )
+[1 of 2] Compiling Data.Proxy.TH    ( src/Data/Proxy/TH.hs, dist/dist-sandbox-b5a179e0/build/Data/Proxy/TH.p_o )
+[2 of 2] Compiling Data.Tagged      ( src/Data/Tagged.hs, dist/dist-sandbox-b5a179e0/build/Data/Tagged.p_o )
+Preprocessing library for tagged-0.8.6.1..
+Running Haddock on library for tagged-0.8.6.1..
+Haddock coverage:
+Warning: 'Proxy' is out of scope.
+    If you qualify the identifier, haddock can try to link it
+    it anyway.
+  67% (  2 /  3) in 'Data.Proxy.TH'
+  Missing documentation for:
+    Module header
+  93% ( 14 / 15) in 'Data.Tagged'
+  Missing documentation for:
+    witness (src/Data/Tagged.hs:454)
+Warning: Data.Tagged: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Documentation created: dist/dist-sandbox-b5a179e0/doc/html/tagged/index.html
+Installing library in /Users/christophe.thibaut/Coding/fractal-sculpture/.cabal-sandbox/lib/x86_64-osx-ghc-8.6.3/tagged-0.8.6.1-ACTfdL0u79W7QCfjOcryc3
+cabal: Leaving directory '/var/folders/z7/k6qym9m16y15sb6n8znyr7ww0000gn/T/cabal-tmp-24922/tagged-0.8.6.1'
