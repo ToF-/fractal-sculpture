@@ -5,22 +5,45 @@
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
 
-sq :: Diagram B 
-sq = square 1 # fc black
+sq :: Double -> Diagram B 
+sq s = square s # fc black # showOrigin # opacity 0.2
 
-cl :: Diagram B
-cl = square 1 # fc white
-
-cls :: Diagram B
-cls = translate (r2 (-1.5,1.5)) $ foldl (\d v -> d `atop` translate (r2 v) cl) mempty [(1.0,0.0),(2,0),(0.0,-1.0),(1.0,-3.0),(2.0,-3.0)]
+cl :: Double -> Diagram B
+cl s = square s # fc white # showOrigin
 
 carve :: Diagram B -> Diagram B
-carve d = cls `atop` (d # scale 4)
+carve bg = foldl (\d v -> (tr v) `atop` d) bg vs
+    where
+        tr v = translate (r2 v) (cl 1)
+        vs = map sc [(1,0),(2,0),(0,-1),(1,-3),(2,-3)]
+        sc (i,j) = (-1.5*f + i*f, 1.5*f +j*f)
+        f = 1
 
+carve' :: Diagram B -> Diagram B
+carve' bg = foldl (\d v -> (tr v) `atop` d) bg vs
+    where
+        tr v = translate (r2 v) (cl 1)
+        vs = map sc [(1,0),(2,0),(0,-1),(1,-3),(2,-3)]
+        sc (i,j) = (-0.5*f + i*f, 0.5*f +j*f)
+        f = 1
+
+carve'' :: Diagram B -> Diagram B
+carve'' bg = foldl (\d v -> (tr v) `atop` d) bg vs
+    where
+        tr v = translate (r2 v) (cl 1)
+        vs = map sc [(1,0),(2,0),(0,-1),(1,-3),(2,-3)]
+        sc (i,j) = (0*f + i*f, 0*f +j*f)
+        f = 1
+
+carve''' :: Diagram B -> Diagram B
+carve''' bg = foldl (\d v -> (tr v) `atop` d) bg vs
+    where
+        tr v = translate (r2 v) (cl 1)
+        vs = map sc [(1,0),(2,0),(0,-1),(1,-3),(2,-3)]
+        sc (i,j) = (0.25*f + i*f, -0.25*f +j*f)
+        f = 1
 reproduce :: Diagram B -> Diagram B
-reproduce d = vcat (replicate 2 (hcat (replicate 2 d)))
+reproduce d = vcat (replicate 2 (hcat (replicate 2 (scale (0.5) d))))
 
-shrink :: Diagram B -> Diagram B
-shrink = scale 0.5
 
-main = mainWith $ reproduce $ carve $ sq 
+main = mainWith $ carve''' $ reproduce $ carve'' $ reproduce $ carve' $ reproduce $ carve $ sq 4
