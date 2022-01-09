@@ -9,25 +9,32 @@ import Data.Colour.Palette.BrewerSet
 
 colors  = reverse (brewerSet  Purples  9)
 
-sq :: Double -> Diagram B 
-sq s = square s # fc black # lw none
+blackSquare :: Double -> Diagram B 
+blackSquare size = square size # fc black # lw none
 
-cl :: Int -> Double -> Diagram B
-cl i s = square s # fc (colors !! i) # lw none # opacity ((fromIntegral i) / 10) 
+clearSquare :: Int -> Double -> Diagram B
+clearSquare colorIndex size = square size 
+                        # lw none
+                        # fc (colors !! colorIndex) 
+                        # opacity ((fromIntegral colorIndex) / 10) 
 
 carve :: Int -> Diagram B -> Diagram B
-carve i bg = foldl (\d v -> (tr v) `atop` d) bg vs
+carve colorIndex background = foldl carveSquare background vectors
     where
-        tr v = translate (r2 v) (cl i 0.25)
-        vs = [(-0.125,0.375),(0.125,0.375)
-             ,(-0.375,0.125)
-             ,(-0.125,-0.375),(0.125,-0.375)]
+        carveSquare diagram vector = (clearSquareAt vector) `atop` diagram
+        clearSquareAt vector = translate (r2 vector) (clearSquare colorIndex 0.25)
+        vectors = [(-0.125 , 0.375 ), ( 0.125, 0.375 )
+                  ,(-0.375 , 0.125 )
+                  ,(-0.125 ,-0.375 ), ( 0.125,-0.375 )]
 
 reproduce :: Diagram B -> Diagram B
-reproduce d = (translate (r2 (-0.250,0.250)) (vcat (replicate 2 (hcat (replicate 2 (scale (0.500) d)))))) 
+reproduce diagram = translate (r2 (-0.250,0.250)) 
+                        (vcat (replicate 2 
+                            (hcat (replicate 2 
+                                (scale 0.500 diagram))))) 
 
 sculpt :: Int -> Diagram B
-sculpt 1 = carve 0 (sq 1)
-sculpt n = carve (n-1) (reproduce (sculpt (n-1)))
+sculpt 1 = carve       0  (blackSquare 1)
+sculpt n = carve (pred n) (reproduce (sculpt (pred n)))
 
 main = defaultMain $ sculpt 8
