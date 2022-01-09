@@ -24,6 +24,8 @@ dependencies:
 - diagrams 
 - diagrams-lib
 - diagrams-svg
+- palette
+- diagrams-rasterific
 
 library:
   source-dirs: src

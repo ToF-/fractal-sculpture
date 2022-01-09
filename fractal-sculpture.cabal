@@ -34,7 +34,9 @@ library
       base >=4.7 && <5
     , diagrams
     , diagrams-lib
+    , diagrams-rasterific
     , diagrams-svg
+    , palette
   default-language: Haskell2010
 
 executable fractal-sculpture-exe
@@ -48,8 +50,10 @@ executable fractal-sculpture-exe
       base >=4.7 && <5
     , diagrams
     , diagrams-lib
+    , diagrams-rasterific
     , diagrams-svg
     , fractal-sculpture
+    , palette
   default-language: Haskell2010
 
 test-suite fractal-sculpture-test
@@ -64,6 +68,8 @@ test-suite fractal-sculpture-test
       base >=4.7 && <5
     , diagrams
     , diagrams-lib
+    , diagrams-rasterific
     , diagrams-svg
     , fractal-sculpture
+    , palette
   default-language: Haskell2010
